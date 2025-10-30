@@ -1,0 +1,17 @@
+{
+  "name": "money-advise-hub-api",
+  "version": "1.0.0",
+  "description": "Daily content generator for Money Advise Hub",
+  "main": "daily-auto-generator.js",
+  "scripts": {
+    "start": "node daily-auto-generator.js",
+    "test": "node -e \"require('./daily-auto-generator.js').generateDailyPosts()\""
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-cron": "^3.0.3"
+  },
+  "keywords": ["finance", "content", "automation", "ai"],
+  "author": "Money Advise Hub",
+  "license": "MIT"
+}
