@@ -3,24 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contact — AdWise Hub</title>
-  <meta name="description" content="Contact AdWise Hub for partnerships, sponsored posts or inquiries." />
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Contact Us - Money Advise Hub</title>
+  <meta name="description" content="Contact Money Advise Hub for financial advice, questions, or partnership opportunities.">
+  <link rel="canonical" href="https://moneyadvisehub.com/contact.html">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="site-header small">
+  <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="../index.html">AdWise Hub</a>
+      <a class="logo" href="index.html">Money Advise Hub</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
     </div>
   </header>
-  <main class="container article">
-    <h1>Contact</h1>
-    <p>For inquiries, partnerships, or sponsored content, email us at <a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a>.</p>
-  </main>
-  <footer class="site-footer small">
-    <div class="container footer-inner">© <span id="year5"></span> AdWise Hub</div>
-  </footer>
-  <script src="../assets/js/main.js"></script>
-<script src="../assets/js/mobile.js"></script><script src="../assets/js/animations.js"></script><script src="../affiliate-links.js"></script></body>
-</html>
 
+  <main class="container page-style">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Have questions about financial planning, insurance, or loans? We're here to help!</p>
+      
+      <div class="contact-methods">
+        <div class="contact-item">
+          <h3>📧 Email</h3>
+          <p>info@moneyadvisehub.com</p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>💼 Business Inquiries</h3>
+          <p>business@moneyadvisehub.com</p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>🤝 Partnerships</h3>
+          <p>partnerships@moneyadvisehub.com</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="contact-form">
+      <h2>Send us a Message</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject">
+            <option>General Inquiry</option>
+            <option>Financial Advice</option>
+            <option>Partnership</option>
+            <option>Technical Issue</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </main>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

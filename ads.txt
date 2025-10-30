@@ -1,0 +1,4 @@
+google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+# Replace pub-1234567890123456 with your actual AdSense Publisher ID
+# This file helps prevent ad fraud and unauthorized inventory
+# Add other ad networks here as needed

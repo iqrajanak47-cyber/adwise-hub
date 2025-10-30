@@ -26,22 +26,44 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
   <meta name="theme-color" content="#0ea5a4" />
 
-  <!-- Google Analytics 4 (Replace GA_MEASUREMENT_ID with your actual ID) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" crossorigin="anonymous"></script>
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+  
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" crossorigin="anonymous"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID', {
+    gtag('config', 'G-XXXXXXXXXX', {
       'anonymize_ip': true,
-      'cookie_flags': 'SameSite=Strict;Secure'
+      'cookie_flags': 'SameSite=Strict;Secure',
+      'page_title': 'Money Advise Hub',
+      'custom_map': {'custom_parameter_1': 'financial_content'}
     });
-  </script> -->
+  </script>
+  
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "YOUR_CLARITY_ID");
+  </script>
 
-  <!-- AdSense placeholder (replace ca-pub-XXXXXXXX) -->
+  <!-- Google AdSense -->
   <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous" referrerpolicy="no-referrer-when-downgrade"></script>
+  
+  <!-- AdSense Auto Ads -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-1234567890123456",
+      enable_page_level_ads: true
+    });
+  </script>
 
-  <!-- JSON-LD Organization -->
+  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,12 +71,88 @@
     "name": "Money Advise Hub",
     "url": "https://moneyadvisehub.com",
     "logo": "https://moneyadvisehub.com/assets/images/logo.png",
-    "sameAs": []
+    "description": "Expert money advice, financial planning guides, insurance reviews and loan comparisons",
+    "foundingDate": "2025",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-555-FINANCE",
+      "contactType": "Customer Service"
+    },
+    "sameAs": [
+      "https://facebook.com/moneyadvisehub",
+      "https://twitter.com/moneyadvisehub",
+      "https://linkedin.com/company/moneyadvisehub"
+    ]
+  }
+  </script>
+  
+  <!-- Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Money Advise Hub",
+    "url": "https://moneyadvisehub.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://moneyadvisehub.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <!-- Financial Service Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Money Advise Hub",
+    "url": "https://moneyadvisehub.com",
+    "description": "Professional financial advice and money management guidance",
+    "serviceType": "Financial Planning",
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Financial Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Insurance Reviews"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Loan Comparisons"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Financial Calculators"
+          }
+        }
+      ]
+    }
   }
   </script>
 
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
+  
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="manifest" href="manifest.json">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
