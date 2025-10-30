@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mortgage Calculator - AdWise Hub</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../index.html">AdWise Hub</a>
+      <button class="hamburger" onclick="toggleMenu()">\u2630</button><nav class="main-nav" id="mainNav">
+        <a href="../articles/insurance.html">Insurance</a>
+        <a href="../articles/loans.html">Loans</a>
+        <a href="../tools/calculators.html">Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>🏠 Mortgage Calculator</h1>
+    
+    <div class="calculator-container" style="background:#fff;padding:30px;border:1px solid #dee2e6;margin:20px 0">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">
+        <div>
+          <label>Loan Amount ($)</label>
+          <input type="number" id="loanAmount" value="300000" min="1000">
+          
+          <label>Interest Rate (%)</label>
+          <input type="number" id="interestRate" value="6.5" step="0.1" min="0.1">
+          
+          <label>Loan Term (Years)</label>
+          <select id="loanTerm">
+            <option value="15">15 years</option>
+            <option value="20">20 years</option>
+            <option value="25">25 years</option>
+            <option value="30" selected>30 years</option>
+          </select>
+          
+          <button onclick="calculateMortgage()" style="margin-top:20px;width:100%">Calculate Payment</button>
+        </div>
+        
+        <div id="results" style="background:#f8f9fa;padding:20px;border-radius:8px">
+          <h3>Monthly Payment: <span id="monthlyPayment">$1,896</span></h3>
+          <p>Total Interest: <span id="totalInterest">$382,633</span></p>
+          <p>Total Amount: <span id="totalAmount">$682,633</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- AdSense Placeholder -->
+    <div class="ad-section">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1234567890123456" data-ad-slot="1234567890" data-ad-format="auto"></ins>
+    </div>
+  </main>
+
+  <script>
+    function calculateMortgage() {
+      try {
+        const loan = parseFloat(document.getElementById('loanAmount').value);
+        const rate = parseFloat(document.getElementById('interestRate').value) / 100 / 12;
+        const term = parseInt(document.getElementById('loanTerm').value) * 12;
+        
+        if (isNaN(loan) || loan <= 0 || isNaN(rate) || rate < 0 || isNaN(term) || term <= 0) {
+          throw new Error('Invalid input values');
+        }
+        
+        const monthly = (loan * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
+        const total = monthly * term;
+        const interest = total - loan;
+        
+        document.getElementById('monthlyPayment').textContent = '$' + monthly.toFixed(2);
+        document.getElementById('totalInterest').textContent = '$' + interest.toFixed(2);
+        document.getElementById('totalAmount').textContent = '$' + total.toFixed(2);
+      } catch (error) {
+        console.error('Calculation error:', error);
+        alert('Please enter valid numbers for all fields.');
+      }
+    }
+  </script>
+<script src="../assets/js/mobile.js"></script><script src="../assets/js/animations.js"></script><script src="../affiliate-links.js"></script></body>
+</html>
+

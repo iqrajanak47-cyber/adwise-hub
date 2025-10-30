@@ -1,0 +1,115 @@
+<!-- Schema Markup Templates for AdWise Hub Content Strategy -->
+
+<!-- 1. Article Schema Template -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "ARTICLE_TITLE",
+  "description": "ARTICLE_DESCRIPTION",
+  "image": "https://www.yourdomain.com/assets/images/ARTICLE_IMAGE.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "AdWise Hub Editorial Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AdWise Hub",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yourdomain.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "YYYY-MM-DD",
+  "dateModified": "YYYY-MM-DD",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.yourdomain.com/ARTICLE_URL"
+  }
+}
+</script>
+
+<!-- 2. Review Schema Template -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "PRODUCT_NAME",
+    "description": "PRODUCT_DESCRIPTION"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "AdWise Hub"
+  },
+  "reviewBody": "REVIEW_SUMMARY"
+}
+</script>
+
+<!-- 3. FAQPage Schema Template -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "QUESTION_1",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ANSWER_1"
+    }
+  }, {
+    "@type": "Question",
+    "name": "QUESTION_2",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ANSWER_2"
+    }
+  }]
+}
+</script>
+
+<!-- 4. ItemList Schema Template -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "ITEM_1_NAME",
+    "url": "https://www.yourdomain.com/ITEM_1_URL"
+  }, {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "ITEM_2_NAME",
+    "url": "https://www.yourdomain.com/ITEM_2_URL"
+  }]
+}
+</script>
+
+<!-- 5. HowTo Schema Template -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "HOW_TO_TITLE",
+  "description": "HOW_TO_DESCRIPTION",
+  "step": [{
+    "@type": "HowToStep",
+    "name": "STEP_1_NAME",
+    "text": "STEP_1_DESCRIPTION"
+  }, {
+    "@type": "HowToStep",
+    "name": "STEP_2_NAME",
+    "text": "STEP_2_DESCRIPTION"
+  }]
+}
+</script>
+

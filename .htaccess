@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /adwise-hub/
+
+# Remove leading slash from internal links
+RewriteRule ^(.*)$ $1 [L]

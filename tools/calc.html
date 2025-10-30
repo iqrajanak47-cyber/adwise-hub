@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>EMI Calculator</h2>
+    <input type="number" id="amt" placeholder="Amount" value="50000">
+    <input type="number" id="rt" placeholder="Rate %" value="8.5">
+    <input type="number" id="yr" placeholder="Years" value="5">
+    <button onclick="calc()">Calculate</button>
+    <div id="res"></div>
+
+    <script>
+        function calc() {
+            let P = +document.getElementById('amt').value;
+            let r = +document.getElementById('rt').value / 100 / 12;
+            let n = +document.getElementById('yr').value * 12;
+            
+            let emi = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+            document.getElementById('res').innerHTML = 'Monthly EMI: $' + emi.toFixed(2);
+        }
+    </script>
+<script src="../assets/js/mobile.js"></script><script src="../assets/js/animations.js"></script><script src="../affiliate-links.js"></script></body>
+</html>
+

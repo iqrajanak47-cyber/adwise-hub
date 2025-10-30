@@ -1,0 +1,14 @@
+{
+  "name": "adwise-hub",
+  "version": "1.0.0",
+  "description": "AdWise Hub - Smart Insights. Smarter Decisions.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "keywords": ["finance", "insurance", "loans", "calculator", "reviews"],
+  "author": "AdWise Hub",
+  "license": "MIT"
+}

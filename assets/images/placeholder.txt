@@ -1,0 +1,7 @@
+# Image Placeholders Needed:
+# - logo.png (blue-gold design with lightbulb + dollar icon)
+# - og-image.jpg (1200x630 social media image)
+# - insurance-card.jpg (article card image)
+# - loans-card.jpg (article card image)
+# - hosting-card.jpg (article card image)
+# - health-card.jpg (article card image)
