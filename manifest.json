@@ -1,24 +1,27 @@
 {
-  "name": "AdWise Hub - Smart Insights for Smarter Decisions",
+  "name": "AdWise Hub - Smart Financial Insights",
   "short_name": "AdWise Hub",
-  "description": "Expert articles, reviews, and comparisons on insurance, loans, mortgages, hosting, and health.",
+  "description": "Your trusted source for financial insights, insurance guides, and expert reviews",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0ea5a4",
+  "theme_color": "#667eea",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/assets/images/icon-192.png",
+      "src": "assets/images/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/icon-512.png",
+      "src": "assets/images/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "categories": ["finance", "business", "productivity"],
-  "lang": "en-US"
+  "categories": ["finance", "news", "business"],
+  "lang": "en-US",
+  "dir": "ltr"
 }
