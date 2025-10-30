@@ -1,7 +1,7 @@
 {
-  "name": "AdWise Hub - Smart Financial Insights",
-  "short_name": "AdWise Hub",
-  "description": "Your trusted source for financial insights, insurance guides, and expert reviews",
+  "name": "Money Advise Hub - Smart Financial Advice",
+  "short_name": "Money Advise Hub",
+  "description": "Your trusted source for money advice, financial planning, and investment guidance",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
