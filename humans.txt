@@ -1,0 +1,28 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Developer: Money Advise Hub Team
+    Contact: info [at] moneyadvisehub.com
+    Twitter: @moneyadvisehub
+    From: Global
+
+# THANKS
+    Google Analytics
+    Microsoft Clarity
+    Vercel Hosting
+    GitHub
+
+# TECHNOLOGY COLOPHON
+    HTML5, CSS3, JavaScript
+    Google Analytics 4
+    Microsoft Clarity
+    Google AdSense
+    Progressive Web App
+    Service Worker
+    
+# SITE
+    Last update: 2025/01/15
+    Language: English
+    Doctype: HTML5
+    IDE: Amazon Q Developer
