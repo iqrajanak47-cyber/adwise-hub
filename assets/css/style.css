@@ -241,3 +241,16 @@ a:hover{color:var(--accent-2)}
   .chat-toggle{padding:12px 16px;font-size:0.9rem}
   .chat-text{display:none}
 }
+
+/* Cookie Consent Banner */
+.cookie-consent{position:fixed;bottom:0;left:0;right:0;background:rgba(0,0,0,0.95);color:#fff;padding:20px;z-index:10000;backdrop-filter:blur(10px)}
+.cookie-content{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.cookie-content p{margin:0;flex:1}
+.cookie-buttons{display:flex;gap:10px;align-items:center}
+.btn-accept{background:var(--gradient-primary);color:#fff;border:none;padding:10px 20px;border-radius:25px;cursor:pointer;font-weight:600}
+.btn-decline{background:transparent;color:#fff;border:2px solid #fff;padding:8px 18px;border-radius:25px;cursor:pointer}
+.btn-more{color:#fff;text-decoration:underline;font-size:0.9rem}
+@media(max-width:768px){
+  .cookie-content{flex-direction:column;text-align:center}
+  .cookie-buttons{justify-content:center}
+}

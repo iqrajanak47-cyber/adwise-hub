@@ -190,6 +190,27 @@ function toggleMenu() {
   nav.classList.toggle('active');
 }
 
+// Cookie consent functions
+function acceptCookies() {
+  localStorage.setItem('cookieConsent', 'accepted');
+  document.getElementById('cookieConsent').style.display = 'none';
+  trackEvent('cookie_consent', 'privacy', 'accepted');
+}
+
+function declineCookies() {
+  localStorage.setItem('cookieConsent', 'declined');
+  document.getElementById('cookieConsent').style.display = 'none';
+  trackEvent('cookie_consent', 'privacy', 'declined');
+}
+
+// Show cookie banner if not consented
+if (!localStorage.getItem('cookieConsent')) {
+  setTimeout(() => {
+    const banner = document.getElementById('cookieConsent');
+    if (banner) banner.style.display = 'block';
+  }, 2000);
+}
+
 // Add CSS for notifications
 const style = document.createElement('style');
 style.textContent = `
