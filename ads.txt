@@ -1,4 +1,1 @@
 google.com, pub-6914004429115810, DIRECT, f08c47fec0942fa0
-# AdSense Publisher ID for Money Advise Hub
-# This file helps prevent ad fraud and unauthorized inventory
-# Add other ad networks here as needed
