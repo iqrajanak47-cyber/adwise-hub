@@ -1,0 +1,23 @@
+/* Article Hero Image Styles */
+.article-hero-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.article-hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-hero-image img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .article-hero-image {
+        margin: 15px 0;
+    }
+}

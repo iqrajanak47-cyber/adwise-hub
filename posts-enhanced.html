@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Financial Posts - Money Advise Hub</title>
+    <meta name="description" content="Browse the latest financial advice, investment tips, and money management posts from Money Advise Hub experts.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="canonical" href="https://adwise-oylki82ud-iqrajans-projects.vercel.app/posts.html">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">Money Advise Hub</a>
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="posts.html">Posts</a>
+                    <a href="reviews/">Reviews</a>
+                    <a href="compare/">Compare</a>
+                    <a href="tools/">Tools</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-hero">
+            <h1>Latest Financial Posts</h1>
+            <p>Stay updated with the latest financial advice, investment tips, and money management strategies</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search posts...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-tab active" onclick="filterByCategory('all')">All Posts</button>
+            <button class="filter-tab" onclick="filterByCategory('Finance')">Finance</button>
+            <button class="filter-tab" onclick="filterByCategory('Insurance')">Insurance</button>
+            <button class="filter-tab" onclick="filterByCategory('Banking')">Banking</button>
+            <button class="filter-tab" onclick="filterByCategory('Investing')">Investing</button>
+            <button class="filter-tab" onclick="filterByCategory('Real Estate')">Real Estate</button>
+        </div>
+
+        <div class="posts-container">
+            <div class="posts-grid" id="postsGrid">
+                <!-- Posts will be loaded here -->
+            </div>
+            
+            <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="spinner"></div>
+                <p>Loading more posts...</p>
+            </div>
+            
+            <div class="load-more-container" id="loadMoreContainer">
+                <button class="btn load-more-btn" onclick="loadMorePosts()">Load More Posts</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Money Advise Hub</h3>
+                    <p>Your trusted source for financial advice and money management tips.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="posts.html">Posts</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2025 Money Advise Hub. All rights reserved.</p>
+                    <nav>
+                        <a href="privacy.html">Privacy</a>
+                        <a href="terms.html">Terms</a>
+                        <a href="disclaimer.html">Disclaimer</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/posts-enhanced.js"></script>
+</body>
+</html>

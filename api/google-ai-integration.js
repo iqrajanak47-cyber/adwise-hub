@@ -1,6 +1,41 @@
 // Google AI Studio Integration for Money Advise Hub
-const GOOGLE_AI_API_KEY = 'YOUR_GOOGLE_AI_STUDIO_API_KEY'; // Replace with your key from https://aistudio.google.com/app/apikey
-const GOOGLE_AI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
+const GOOGLE_AI_API_KEY = 'AIzaSyBGBvisMUklr_swayUPHV-n4VJL-eK-ZLU'; // Replace with your key from https://aistudio.google.com/app/apikey
+const GOOGLE_AI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GOOGLE_AI_API_KEY}`;
+const IMAGE_GEN_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:generateImage?key=${GOOGLE_AI_API_KEY}`;
+
+// Generate images using Google AI Studio
+async function generateArticleImage(topic, category) {
+  const imagePrompt = `Create a professional, clean illustration for a financial article about "${topic}". Style: modern, minimalist, business-focused, suitable for a financial website. Colors: blue, green, white. No text overlay. High quality, web-optimized.`;
+
+  try {
+    const response = await fetch(IMAGE_GEN_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        prompt: imagePrompt,
+        config: {
+          aspectRatio: '16:9',
+          safetyFilterLevel: 'BLOCK_ONLY_HIGH',
+          personGeneration: 'DONT_ALLOW'
+        }
+      })
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      if (data.candidates && data.candidates[0]) {
+        return data.candidates[0].image.uri;
+      }
+    }
+  } catch (error) {
+    console.error('Image generation failed:', error);
+  }
+  
+  // Fallback to placeholder
+  return `https://via.placeholder.com/800x450/2c5aa0/ffffff?text=${encodeURIComponent(topic)}`;
+}
 
 // Generate financial content using Google AI Studio
 async function generateFinancialArticle(topic, category) {
@@ -24,8 +59,7 @@ Format the response as clean HTML content ready for publication.`;
     const response = await fetch(GOOGLE_AI_ENDPOINT, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
-        'x-goog-api-key': GOOGLE_AI_API_KEY
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
         contents: [{
@@ -55,8 +89,12 @@ Format the response as clean HTML content ready for publication.`;
   } catch (error) {
     console.error('Google AI generation failed:', error);
     
-    // Fallback content template
+    // Fallback content template with image
+    const fallbackImage = `https://via.placeholder.com/800x450/2c5aa0/ffffff?text=${encodeURIComponent(topic)}`;
     return `
+      <div class="article-hero-image">
+        <img src="${fallbackImage}" alt="${topic}" class="img-fluid rounded mb-4" loading="lazy">
+      </div>
       <h2>Understanding ${topic}</h2>
       <p>This comprehensive guide covers everything US residents need to know about ${topic.toLowerCase()}.</p>
       
@@ -105,9 +143,22 @@ async function generateDailyContentWithAI() {
   const selectedTopic = topics[dayIndex];
 
   console.log(`🤖 Generating AI content: ${selectedTopic.topic}`);
+  console.log(`🎨 Generating article image...`);
 
   try {
+    // Generate image first
+    const imageUrl = await generateArticleImage(selectedTopic.topic, selectedTopic.category);
+    
+    // Generate content
     const aiContent = await generateFinancialArticle(selectedTopic.topic, selectedTopic.category);
+    
+    // Add image to content
+    const contentWithImage = `
+      <div class="article-hero-image">
+        <img src="${imageUrl}" alt="${selectedTopic.topic}" class="img-fluid rounded mb-4" loading="lazy">
+      </div>
+      ${aiContent}
+    `;
     
     // Upload to website
     const uploadResponse = await fetch('https://adwise-oylki82ud-iqrajans-projects.vercel.app/api/upload-content.php', {
@@ -118,9 +169,10 @@ async function generateDailyContentWithAI() {
       },
       body: JSON.stringify({
         title: selectedTopic.topic,
-        content: aiContent,
+        content: contentWithImage,
         category: selectedTopic.category,
-        source: 'Google AI Studio'
+        source: 'Google AI Studio + Imagen',
+        imageUrl: imageUrl
       })
     });
 
@@ -157,6 +209,7 @@ async function testGoogleAI() {
 if (typeof module !== 'undefined') {
   module.exports = { 
     generateFinancialArticle, 
+    generateArticleImage,
     generateDailyContentWithAI, 
     testGoogleAI 
   };
