@@ -110,7 +110,7 @@ async function generateDailyContentWithAI() {
     const aiContent = await generateFinancialArticle(selectedTopic.topic, selectedTopic.category);
     
     // Upload to website
-    const uploadResponse = await fetch('https://moneyadvisehub.com/api/upload-content.php', {
+    const uploadResponse = await fetch('https://adwise-oylki82ud-iqrajans-projects.vercel.app/api/upload-content.php', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

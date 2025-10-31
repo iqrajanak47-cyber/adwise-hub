@@ -1,5 +1,5 @@
 // Daily 10 Posts Auto Generator
-const API_ENDPOINT = 'https://moneyadvisehub.com/api/upload-content.php';
+const API_ENDPOINT = 'https://adwise-oylki82ud-iqrajans-projects.vercel.app/api/upload-content.php';
 const API_KEY = 'mah-api-key-2025';
 
 // 100+ Financial Topics Pool

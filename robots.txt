@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://moneyadvisehub.com/sitemap.xml
+Sitemap: https://adwise-oylki82ud-iqrajans-projects.vercel.app/sitemap.xml
 
 # Crawl-delay for better server performance
 Crawl-delay: 1
