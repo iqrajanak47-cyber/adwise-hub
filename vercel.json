@@ -36,10 +36,7 @@
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
         },
-        {
-          "key": "Strict-Transport-Security",
-          "value": "max-age=31536000; includeSubDomains"
-        },
+
         {
           "key": "Content-Security-Policy",
           "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.clarity.ms https://generativelanguage.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com https://generativelanguage.googleapis.com https://adwise-oylki82ud-iqrajans-projects.vercel.app; frame-src https://pagead2.googlesyndication.com;"
@@ -54,9 +51,5 @@
   },
   "env": {
     "GOOGLE_AI_API_KEY": "AIzaSyBGBvisMUklr_swayUPHV-n4VJL-eK-ZLU"
-  },
-  "domains": [
-    "moneyadvisehub.com",
-    "www.moneyadvisehub.com"
-  ]
+  }
 }

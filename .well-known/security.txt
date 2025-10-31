@@ -1,3 +1,4 @@
 Contact: mailto:admin@moneyadvisehub.com
 Expires: 2025-12-31T23:59:59.000Z
-Canonical: https://adwise-oylki82ud-iqrajans-projects.vercel.app/.well-known/security.txt
+Canonical: https://moneyadvisehub.com/.well-known/security.txt
+Encryption: https://moneyadvisehub.com/pgp-key.txt

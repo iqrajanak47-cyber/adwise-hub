@@ -7,17 +7,19 @@
 
 ## Required DNS Records
 
-### Option 1: CNAME Records (Recommended)
+### Cloudflare DNS Records (Recommended)
 ```
 Type: CNAME
 Name: www
-Value: cname.vercel-dns.com
-TTL: 300
+Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Proxy: ON (Orange Cloud)
+TTL: Auto
 
 Type: CNAME  
 Name: @
-Value: cname.vercel-dns.com
-TTL: 300
+Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Proxy: ON (Orange Cloud)
+TTL: Auto
 ```
 
 ### Option 2: A Records
