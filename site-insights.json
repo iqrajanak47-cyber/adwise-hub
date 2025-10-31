@@ -1,0 +1,16 @@
+{
+  "siteAnalysis": {
+    "title": "Money Advice Hub",
+    "navigationItems": 1137,
+    "articleCount": 0,
+    "isResponsive": true,
+    "hasModernStructure": true
+  },
+  "recommendations": [
+    "Analyze navigation structure for UX improvements",
+    "Study article categorization methods",
+    "Review responsive design implementation",
+    "Examine content organization patterns"
+  ],
+  "collectedAt": "2025-10-31T16:04:29.775Z"
+}

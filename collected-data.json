@@ -1,0 +1,4573 @@
+{
+  "title": "Money Advice Hub",
+  "navigation": [
+    [
+      {
+        "url": "/home",
+        "text": "Home"
+      },
+      {
+        "url": "/home/site-map",
+        "text": "Site Map"
+      },
+      {
+        "url": "/home/website-accessibility",
+        "text": "Website Accessibility"
+      },
+      {
+        "url": "/home/blog",
+        "text": "Blog"
+      },
+      {
+        "url": "/about",
+        "text": "About"
+      },
+      {
+        "url": "/about/our-charter",
+        "text": "Our Charter"
+      },
+      {
+        "url": "/about/our-charter/complaints",
+        "text": "Complaints"
+      },
+      {
+        "url": "/about/our-charter/service-user-policy",
+        "text": "Service User  Policy"
+      },
+      {
+        "url": "/about/services",
+        "text": "Services"
+      },
+      {
+        "url": "/about/recruitment",
+        "text": "Recruitment"
+      },
+      {
+        "url": "/about/volunteer",
+        "text": "Volunteer"
+      },
+      {
+        "url": "/about/work-placement",
+        "text": "Work Placement"
+      },
+      {
+        "url": "/debtipedia",
+        "text": "Debtipedia"
+      },
+      {
+        "url": "/debtipedia/your-money",
+        "text": "Your Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance",
+        "text": "Banking &amp; Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking",
+        "text": "Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/a-to-z-of-uk-digital-challenger-banks",
+        "text": "A to Z of UK Digital &#39;Challenger Banks&#39;"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/bank-accounts-safe-basic",
+        "text": "Bank Accounts - Safe &amp; Basic"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/cryptocurrency",
+        "text": "Cryptocurrency"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-ombudsman-service",
+        "text": "Financial Ombudsman Service"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-services-compensation-scheme-fscs",
+        "text": "Financial Services Compensation Scheme (FSCS)"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/managing-a-bank-account",
+        "text": "Managing a Bank Account"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/payment-instructions",
+        "text": "Payment Instructions"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/right-of-set-off-first-right-of-appropriation",
+        "text": "Right of Set-off &amp; First Right of Appropriation"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money",
+        "text": "Borrowing Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/bank-overdrafts",
+        "text": "Bank Overdrafts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/buy-now-pay-later",
+        "text": "Buy Now Pay Later"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/catalogue-credit",
+        "text": "Catalogue Credit"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-builder-cards",
+        "text": "Credit Builder Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-cards",
+        "text": "Credit Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/equity-release",
+        "text": "Equity Release"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/hire-purchase",
+        "text": "Hire Purchase"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/interest-only-mortgage-calculator",
+        "text": "Interest Only Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/loan-sharks",
+        "text": "Loan Sharks"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/repayment-mortgage-calculator",
+        "text": "Repayment Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/logbook-loans",
+        "text": "Logbook Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/pcp-agreements",
+        "text": "PCP Agreements"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/personal-loans",
+        "text": "Personal Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score",
+        "text": "Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/credit-reference-agencies",
+        "text": "Credit Reference Agencies"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/improve-your-credit-score",
+        "text": "Improve your Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/correct-credit-report-errors",
+        "text": "Correct Credit Report Errors"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings",
+        "text": "Savings"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/help-to-save-scheme",
+        "text": "Help to Save Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/savings-accounts",
+        "text": "Savings Accounts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/types-of-savings-schemes",
+        "text": "Types of Savings  Schemes"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it",
+        "text": "Digital Skills - &quot;Getting Digi with it&quot;"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills",
+        "text": "Essential Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/basic-digital-skills",
+        "text": "Basic Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/dark-web",
+        "text": "Dark Web"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/digital-communnications",
+        "text": "Digital Communnications"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/enable-private-browsing",
+        "text": "Enable Private Browsing"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/handling-information-content",
+        "text": "Handling Information &amp; Content"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/create-secure-passwords",
+        "text": "Create Secure Passwords"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-consumer-rights",
+        "text": "Online Consumer Rights"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-safety-for-kids",
+        "text": "Online Safety for Kids"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/shopping-safely-online",
+        "text": "Shopping Safely Online"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/use-a-vpn",
+        "text": "Use a VPN"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/erase-browsing-history",
+        "text": "Erase Browsing History"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools",
+        "text": "Digital Admin Tools"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/free-scanning-app",
+        "text": "Free Scanning App"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/mobile-phones-do-not-disturb-controls",
+        "text": "Mobile Phones - Do Not Disturb Controls"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/take-screenshots",
+        "text": "Take Screenshots"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/send-documents-by-whatsapp",
+        "text": "Send Documents by WhatsApp"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/set-up-a-free-email-account",
+        "text": "Set up a Free Email Account"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance",
+        "text": "Digital Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/contactless-payments",
+        "text": "Contactless Payments"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/digital-wallets",
+        "text": "Digital Wallets"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/mobile-banking",
+        "text": "Mobile Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/open-banking",
+        "text": "Open Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/troubleshooting",
+        "text": "Troubleshooting"
+      },
+      {
+        "url": "/debtipedia/your-money/housing",
+        "text": "Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness",
+        "text": "Homelessness"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-adults",
+        "text": "Homelessness - Adults"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-age-16-to-17",
+        "text": "Homelessness - age 16 to 17"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/finding-emergency-housing",
+        "text": "Finding Emergency Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-decision-challenge",
+        "text": "Homelessness Decision Challenge"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners",
+        "text": "Homeowners"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners/sell-your-home-without-fees",
+        "text": "Sell your home without  fees"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent",
+        "text": "Private Rent"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/housing-disrepair",
+        "text": "Housing Disrepair"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/illegal-eviction-harassment",
+        "text": "Illegal Eviction &amp; Harassment"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/neighbour-disputes-anti-social-behaviour",
+        "text": "Neighbour Disputes &amp; Anti-Social Behaviour"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/overcrowding",
+        "text": "Overcrowding"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/renters-rights-responsibilities",
+        "text": "Renters Rights &amp; Responsibilities"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/rent-increases",
+        "text": "Rent Increases"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-8-notice",
+        "text": "Section 8 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-21-notice",
+        "text": "Section 21 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/tenancy-deposit-scheme",
+        "text": "Tenancy Deposit Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/bedroom-tax",
+        "text": "Bedroom Tax"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/draft-social-housing-charter",
+        "text": "Draft Social Housing Charter"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/illegal-eviction-harassment-social-housing",
+        "text": "Illegal Eviction &amp; Harassment (Social Housing)"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/local-housing-register",
+        "text": "Local Housing Register"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing-complaint-code",
+        "text": "Social Housing Complaint Code"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/untidy-tenancy",
+        "text": "Untidy Tenancy"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain",
+        "text": "Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/signs-of-debt",
+        "text": "Signs of Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/reasons-for-debt",
+        "text": "Reasons for Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/manage-financial-strain",
+        "text": "Manage Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt",
+        "text": "Getting Help with Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/meet-the-debt-adviser",
+        "text": "Meet the Debt Adviser"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/fca-debt-advice-regulation",
+        "text": "FCA Debt Advice Regulation"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/your-debt-advice-journey",
+        "text": "Your Debt Advice Journey"
+      },
+      {
+        "url": "/debtipedia/your-financial-health",
+        "text": "Your Financial Health"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances",
+        "text": "Audit Your Finances"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/benefit-calculators",
+        "text": "Benefit Calculators"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/Improving-Your-Budget",
+        "text": "Household Budget Audit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability",
+        "text": "Challenge Liability"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability/challenging-benefit-decisions",
+        "text": "Challenging Benefit Decisions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/personal-insolvency-test",
+        "text": "Personal Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting",
+        "text": "Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/create-a-budget",
+        "text": "Create a Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget",
+        "text": "Types of Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/deficit-budget",
+        "text": "Deficit Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/spare-income-budget",
+        "text": "Spare Income Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation",
+        "text": "Income Maximisation"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements",
+        "text": "Benefits &amp; Entitlements"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/a-to-z-welfare-benefits",
+        "text": "A to Z Welfare Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/armed-forces-independence-payment",
+        "text": "Armed Forces Independence Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/attendance-allowance",
+        "text": "Attendance Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/bereavement-support-payment",
+        "text": "Bereavement Support Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/carers-allowance",
+        "text": "Carer&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/child-benefit",
+        "text": "Child Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/christmas-bonus",
+        "text": "Christmas Bonus"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/council-tax-reduction-discounts",
+        "text": "Council Tax Reduction &amp; Discounts"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-living-allowance-kids",
+        "text": "Disability Living Allowance - Kids"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-premiums",
+        "text": "Disability Premiums"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/dual-housing-costs",
+        "text": "Dual Housing Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/employment-support-allowance-esa",
+        "text": "Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/permitted-work-for-employment-support-allowance-esa",
+        "text": "Permitted Work for Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/basic-state-pension",
+        "text": "Basic State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-pension-scheme-constant-attendance-allowance-caa",
+        "text": "War Pension Scheme: Constant Attendance Allowance (CAA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/mobility-supplement",
+        "text": "Mobility Supplement"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/guardians-allowance",
+        "text": "Guardian&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/housing-benefit",
+        "text": "Housing Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/how-when-benefits-are-paid",
+        "text": "How &amp; when Benefits are paid"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/incapacity-benefit",
+        "text": "Incapacity Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/income-support",
+        "text": "Income Support"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/industrial-injuries-disablement-benefit",
+        "text": "Industrial Injuries Disablement Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance",
+        "text": "Jobseeker&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance-sanctions",
+        "text": "Jobseeker&#39;s Allowance Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/maternity-allowance",
+        "text": "Maternity Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/motability-scheme",
+        "text": "Motability Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/new-state-pension",
+        "text": "New State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/nhs-dental-care",
+        "text": "NHS Dental Care"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/no-recourse-to-public-funds",
+        "text": "No Recourse to Public Funds"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/passported-benefits",
+        "text": "Passported Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pension-credit",
+        "text": "Pension Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip",
+        "text": "PIP"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip-application-questions",
+        "text": "PIP Application Questions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/sure-start-maternity-grant",
+        "text": "Sure Start Maternity Grant"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/savings-capital-rules-for-the-over-60s",
+        "text": "Savings &amp; Capital Rules for the over 60&#39;s"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-adoption-pay",
+        "text": "Statutory Adoption Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-maternity-pay",
+        "text": "Statutory Maternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-paternity-pay",
+        "text": "Statutory Paternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-sick-pay-ssp",
+        "text": "Statutory Sick Pay (SSP)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-child-funeral-costs",
+        "text": "Support for Child funeral costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/tax-credits",
+        "text": "Tax Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/the-benefit-cap",
+        "text": "The Benefit Cap"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit",
+        "text": "Universal Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-how-to-claim-online",
+        "text": "Universal Credit - How to Claim Online"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-sanctions",
+        "text": "Universal Credit Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-online-portal-home-page",
+        "text": "Universal Credit Online Portal Home Page"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-widows-or-war-widowers-pension",
+        "text": "War Widows or War Widowers Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/widowed-parents-allowance",
+        "text": "Widowed Parent&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-hours-for-benefits",
+        "text": "Working Hours for Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/calculating-hours-of-work",
+        "text": "Calculating Hours of Work"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/blue-badge-scheme",
+        "text": "Blue Badge Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/childcare-nursery-fees-early-years",
+        "text": "Childcare &amp; Nursery Fees Early Years"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/cold-weather-payment",
+        "text": "Cold Weather Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-for-students",
+        "text": "Financial Help for Students"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-with-school-costs",
+        "text": "Financial Help With School Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/healthy-start-scheme",
+        "text": "Healthy Start Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-funeral-costs",
+        "text": "Help with Funeral Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-public-transport-costs",
+        "text": "Help with Public Transport Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/immigration-benefits",
+        "text": "Immigration &amp; Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-mortgage-interest",
+        "text": "Support for Mortgage Interest"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/specified-adult-childcare-credits",
+        "text": "Specified Adult Childcare Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/winter-fuel-payment",
+        "text": "Winter Fuel Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/warm-home-discount-scheme",
+        "text": "Warm Home Discount Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-from-home-tax-relief",
+        "text": "Working from Home Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more",
+        "text": "Earn More"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/10-ways-to-boost-income",
+        "text": "10 Ways to boost income"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/rent-a-room-scheme",
+        "text": "Rent a Room Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help",
+        "text": "Hardship Help"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/budgeting-loan",
+        "text": "Budgeting Loan"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/discretionary-housing-payment",
+        "text": "Discretionary Housing Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/foodbanks",
+        "text": "Foodbanks"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/help-topping-up-a-prepayment-meter",
+        "text": "Help Topping up a Prepayment meter"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/universal-credit-advance",
+        "text": "Universal Credit Advance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/uc-hardship-payment",
+        "text": "UC Hardship Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money",
+        "text": "Managing Money"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips",
+        "text": "Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/20-food-budgeting-tips",
+        "text": "20 Food Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/jam-jar-budgeting",
+        "text": "Jam-Jar Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/loyalty-reward-cards-top-10",
+        "text": "Loyalty &amp; Reward Cards Top 10"
+      },
+      {
+        "url": "/debtipedia/your-debt",
+        "text": "Your Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice",
+        "text": "Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice",
+        "text": "About Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/debt-advice-guide",
+        "text": "Debt Advice Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/priority-debts",
+        "text": "Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/non-priority-debts",
+        "text": "Non -Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared",
+        "text": "Get Prepared"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/contacting-creditors",
+        "text": "Contacting Creditors"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/income-expenditure",
+        "text": "Income &amp; Expenditure"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/future-proofing",
+        "text": "Future Proofing"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/verification-documents",
+        "text": "Verification Documents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court",
+        "text": "Going to Court"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/litigants-in-person-guide",
+        "text": "Litigants in Person Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/free-or-cheaper-legal-advice",
+        "text": "Free or Cheaper Legal Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics",
+        "text": "Debt Advice Topics"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bailiffs-enforcement-agents",
+        "text": "Bailiffs - Enforcement Agents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bill-of-sale",
+        "text": "Bill of Sale"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/charging-orders",
+        "text": "Charging Orders"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-arrears",
+        "text": "Council Tax Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-bailiff-enforcement",
+        "text": "Council Tax Bailiff Enforcement"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/credit-debt-collection",
+        "text": "Credit Debt Collection"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/creditor-harassment",
+        "text": "Creditor Harassment"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/dealing-with-debt-when-a-person-dies",
+        "text": "Dealing with Debt when a person dies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-advice-in-scotland",
+        "text": "Debt Advice in Scotland"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-collection-agencies",
+        "text": "Debt Collection Agencies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-mental-health",
+        "text": "Debt &amp; Mental Health"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/default-notices",
+        "text": "Default Notices"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/divorce-separation",
+        "text": "Divorce &amp; Separation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/enforcement-of-debts",
+        "text": "Enforcement of Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/energy-debt",
+        "text": "Energy Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/help-with-court-fees",
+        "text": "Help with Court Fees"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/ignoring-debts",
+        "text": "Ignoring Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-bailiffs",
+        "text": "Magistrates Court Bailiffs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-fines",
+        "text": "Magistrates Court Fines"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/overpayment-of-benefits",
+        "text": "Overpayment of Benefits"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/problem-ivas",
+        "text": "Problem IVAs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/section-13a-council-tax-relief",
+        "text": "Section 13A Council Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statutory-demands",
+        "text": "Statutory Demands"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statute-barred-debts",
+        "text": "Statute Barred Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/tomlin-order",
+        "text": "Tomlin Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/vary-a-ccj",
+        "text": "Vary a CCJ"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/water-arrears",
+        "text": "Water Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears",
+        "text": "Housing Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears",
+        "text": "Mortgage Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-arrears-pre-action-protocol",
+        "text": "Mortgage Arrears Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-shortfalls",
+        "text": "Mortgage Shortfalls"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/negative-equity",
+        "text": "Negative Equity"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-interest-run-on",
+        "text": "Mortgage Interest Run on"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/court-action-for-mortgages-secured-loans",
+        "text": "Court Action for Mortgages &amp; Secured Loans"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears",
+        "text": "Rent Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-private-renting",
+        "text": "Rent Arrears - Private Renting"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-social-housing",
+        "text": "Rent Arrears - Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-possession-pre-action-protocol",
+        "text": "Rent Arrears Possession Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/pre-action-protocol-social-landlords",
+        "text": "Pre-Action Protocol  Social Landlords"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options",
+        "text": "Debt Options"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/administration-order",
+        "text": "Administration Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/bankruptcy",
+        "text": "Bankruptcy"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/breathing-space-scheme",
+        "text": "Breathing Space Scheme"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-management-plan",
+        "text": "Debt Management Plan"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-options-guide",
+        "text": "Debt Options Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-relief-order",
+        "text": "Debt Relief Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-reorganisation",
+        "text": "Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-write-off",
+        "text": "Debt Write-off"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/full-final-settlement-offers",
+        "text": "Full &amp; Final Settlement Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/informal-offers",
+        "text": "Informal Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/iva",
+        "text": "IVA"
+      },
+      {
+        "url": "/debtipedia/your-future",
+        "text": "Your Future"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience",
+        "text": "Financial Resilience"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/flexible-finances",
+        "text": "Flexible Finances"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/financial-capability",
+        "text": "Financial Capability"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/make-do-and-mend",
+        "text": "Make Do and Mend"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages",
+        "text": "Money Life Stages"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family",
+        "text": "Your Family"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/childhood-to-teens-0-18",
+        "text": "Childhood to Teens (0-18)"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/students-18",
+        "text": "Students 18+"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-retirement",
+        "text": "Your Retirement"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy",
+        "text": "Your Legacy"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy/types-of-wills",
+        "text": "Types of Wills"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/a-to-z-of-financial-products",
+        "text": "A to Z of Financial Products"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing",
+        "text": "Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions",
+        "text": "Addictions"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/alcohol-abuse",
+        "text": "Alcohol Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/drug-abuse",
+        "text": "Drug Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/problem-gambling",
+        "text": "Problem Gambling"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/relapse-prevention",
+        "text": "Relapse Prevention"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/quit-smoking",
+        "text": "Quit Smoking"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse",
+        "text": "Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/escaping-domestic-abuse",
+        "text": "Escaping Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/financial-abuse",
+        "text": "Financial Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/staying-in-abusive-relationships",
+        "text": "Staying in Abusive relationships"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind",
+        "text": "Health &amp; Mind"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/5-ways-to-wellbeing",
+        "text": "5 Ways to Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/eatwell",
+        "text": "Eatwell"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/living-alone",
+        "text": "Living Alone"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/loneliness",
+        "text": "Loneliness"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/relaxation-strategies",
+        "text": "Relaxation Strategies"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/sleep-well",
+        "text": "Sleep Well"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/stress-depression",
+        "text": "Stress &amp; Depression"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/suicidal-thoughts",
+        "text": "Suicidal Thoughts"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/wellbeing-toolkits",
+        "text": "Wellbeing Toolkits"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching",
+        "text": "Life Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/personal-development",
+        "text": "Personal Development"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/career-coaching",
+        "text": "Career Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/relationships-social-skills",
+        "text": "Relationships &amp; Social Skills"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/vision",
+        "text": "Vision"
+      },
+      {
+        "url": "/debtipedia/money-bizassist",
+        "text": "Money BizAssist"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning",
+        "text": "Financial Business Planning"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-plan",
+        "text": "Business Plan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance",
+        "text": "Business Finance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-banking",
+        "text": "Business Banking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/small-business-freebies",
+        "text": "Small Business Freebies"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-insurance",
+        "text": "Business Insurance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/payment-obligations-recovery",
+        "text": "Payment Obligations &amp; Recovery"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/financial-software",
+        "text": "Financial Software"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk",
+        "text": "Managing Business Risk"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-contingency-fund",
+        "text": "Business Contingency Fund"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-laws",
+        "text": "Business Laws"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/directors-income",
+        "text": "Director&#39;s Income"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property",
+        "text": "Commercial Property"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/non-domestic-rates",
+        "text": "Non-Domestic Rates"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/business-rates-relief",
+        "text": "Business Rates Relief"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records",
+        "text": "Financial Business Records"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention",
+        "text": "Document Retention"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention/digital-receipts",
+        "text": "Digital Receipts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing",
+        "text": "Reporting &amp; Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/companies-house-online-filing",
+        "text": "Companies House Online Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/dormant-accounts",
+        "text": "Dormant Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/self-employed-tax-return",
+        "text": "Self-employed Tax Return"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/tax-compliance-checks",
+        "text": "Tax Compliance Checks"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/corporation-tax",
+        "text": "Corporation Tax"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts",
+        "text": "Small Business Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/actuals",
+        "text": "Actuals"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/balance-sheet",
+        "text": "Balance Sheet"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/bank-reconciliiation",
+        "text": "Bank Reconciliiation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/cash-flow-forecast",
+        "text": "Cash Flow Forecast"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/fixed-asset-register",
+        "text": "Fixed Asset Register"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/petty-cash",
+        "text": "Petty Cash"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/profit-loss-statement",
+        "text": "Profit &amp; Loss Statement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/glossary-of-accountancy-terms",
+        "text": "Glossary of Accountancy Terms"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/untidy-accounts",
+        "text": "Untidy Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development",
+        "text": "Business Development"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/small-business-grants",
+        "text": "Small Business Grants"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing",
+        "text": "Marketing &amp; Advertsing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/market-research",
+        "text": "Market Research"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/online-advertising",
+        "text": "Online Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/free-advertising",
+        "text": "Free Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/social-media-campaigns",
+        "text": "Social Media Campaigns"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking",
+        "text": "Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking/video-networking",
+        "text": "Video Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/successful-business-tips",
+        "text": "Successful Business Tips"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt",
+        "text": "Help with Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress",
+        "text": "Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/signs-of-financial-distress",
+        "text": "Signs of Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/insolvency-test",
+        "text": "Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/liability-for-business-debt",
+        "text": "Liability for Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/other-business-debt-options",
+        "text": "Other Business Debt Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/statutory-demand",
+        "text": "Statutory Demand"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts",
+        "text": "Business Debts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/bounce-back-loan-debt",
+        "text": "Bounce Back Loan Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/covid-business-interruption-loan",
+        "text": "Covid Business Interruption Loan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/hmrc-tax-debt-fines",
+        "text": "HMRC Tax Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/vat-debt-fines",
+        "text": "VAT Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue",
+        "text": "Business Rescue"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/administration",
+        "text": "Administration"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/company-voluntary-arrangement",
+        "text": "Company Voluntary Arrangement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/business-debt-reorganisation",
+        "text": "Business Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/investment-options",
+        "text": "Investment Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/mergers-acquisitions",
+        "text": "Mergers &amp; Acquisitions"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/universal-credit-business-owners",
+        "text": "Universal Credit - Business Owners"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business",
+        "text": "Closing a Business"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/liquidation",
+        "text": "Liquidation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/striking-off-dissolution",
+        "text": "Striking off &amp; Dissolution"
+      },
+      {
+        "url": "/debtipedia/resources-tools",
+        "text": "Resources &amp; Tools"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-advice-passport",
+        "text": "Debt Advice Passport"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-club-toolkit",
+        "text": "Debt Club Toolkit"
+      },
+      {
+        "url": "/debtipedia/resources-tools/online-budget-tool",
+        "text": "Online Budget Tool"
+      },
+      {
+        "url": "/debtipedia/resources-tools/fact-sheet-library",
+        "text": "Fact Sheet Library"
+      },
+      {
+        "url": "/debtipedia/resources-tools/quiz",
+        "text": "Quiz"
+      },
+      {
+        "url": "/debtipedia/service-user-portal",
+        "text": "Service User Portal"
+      },
+      {
+        "url": "/debtipedia/service-user-portal/pip-preparation-form",
+        "text": "PIP Preparation Form"
+      },
+      {
+        "url": "/contact",
+        "text": "Contact"
+      }
+    ],
+    [
+      {
+        "url": "/home",
+        "text": "Home"
+      },
+      {
+        "url": "/home/site-map",
+        "text": "Site Map"
+      },
+      {
+        "url": "/home/website-accessibility",
+        "text": "Website Accessibility"
+      },
+      {
+        "url": "/home/blog",
+        "text": "Blog"
+      },
+      {
+        "url": "/about",
+        "text": "About"
+      },
+      {
+        "url": "/about/our-charter",
+        "text": "Our Charter"
+      },
+      {
+        "url": "/about/our-charter/complaints",
+        "text": "Complaints"
+      },
+      {
+        "url": "/about/our-charter/service-user-policy",
+        "text": "Service User  Policy"
+      },
+      {
+        "url": "/about/services",
+        "text": "Services"
+      },
+      {
+        "url": "/about/recruitment",
+        "text": "Recruitment"
+      },
+      {
+        "url": "/about/volunteer",
+        "text": "Volunteer"
+      },
+      {
+        "url": "/about/work-placement",
+        "text": "Work Placement"
+      },
+      {
+        "url": "/debtipedia",
+        "text": "Debtipedia"
+      },
+      {
+        "url": "/debtipedia/your-money",
+        "text": "Your Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance",
+        "text": "Banking &amp; Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking",
+        "text": "Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/a-to-z-of-uk-digital-challenger-banks",
+        "text": "A to Z of UK Digital &#39;Challenger Banks&#39;"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/bank-accounts-safe-basic",
+        "text": "Bank Accounts - Safe &amp; Basic"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/cryptocurrency",
+        "text": "Cryptocurrency"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-ombudsman-service",
+        "text": "Financial Ombudsman Service"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-services-compensation-scheme-fscs",
+        "text": "Financial Services Compensation Scheme (FSCS)"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/managing-a-bank-account",
+        "text": "Managing a Bank Account"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/payment-instructions",
+        "text": "Payment Instructions"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/right-of-set-off-first-right-of-appropriation",
+        "text": "Right of Set-off &amp; First Right of Appropriation"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money",
+        "text": "Borrowing Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/bank-overdrafts",
+        "text": "Bank Overdrafts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/buy-now-pay-later",
+        "text": "Buy Now Pay Later"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/catalogue-credit",
+        "text": "Catalogue Credit"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-builder-cards",
+        "text": "Credit Builder Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-cards",
+        "text": "Credit Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/equity-release",
+        "text": "Equity Release"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/hire-purchase",
+        "text": "Hire Purchase"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/interest-only-mortgage-calculator",
+        "text": "Interest Only Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/loan-sharks",
+        "text": "Loan Sharks"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/repayment-mortgage-calculator",
+        "text": "Repayment Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/logbook-loans",
+        "text": "Logbook Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/pcp-agreements",
+        "text": "PCP Agreements"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/personal-loans",
+        "text": "Personal Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score",
+        "text": "Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/credit-reference-agencies",
+        "text": "Credit Reference Agencies"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/improve-your-credit-score",
+        "text": "Improve your Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/correct-credit-report-errors",
+        "text": "Correct Credit Report Errors"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings",
+        "text": "Savings"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/help-to-save-scheme",
+        "text": "Help to Save Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/savings-accounts",
+        "text": "Savings Accounts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/types-of-savings-schemes",
+        "text": "Types of Savings  Schemes"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it",
+        "text": "Digital Skills - &quot;Getting Digi with it&quot;"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills",
+        "text": "Essential Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/basic-digital-skills",
+        "text": "Basic Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/dark-web",
+        "text": "Dark Web"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/digital-communnications",
+        "text": "Digital Communnications"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/enable-private-browsing",
+        "text": "Enable Private Browsing"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/handling-information-content",
+        "text": "Handling Information &amp; Content"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/create-secure-passwords",
+        "text": "Create Secure Passwords"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-consumer-rights",
+        "text": "Online Consumer Rights"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-safety-for-kids",
+        "text": "Online Safety for Kids"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/shopping-safely-online",
+        "text": "Shopping Safely Online"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/use-a-vpn",
+        "text": "Use a VPN"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/erase-browsing-history",
+        "text": "Erase Browsing History"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools",
+        "text": "Digital Admin Tools"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/free-scanning-app",
+        "text": "Free Scanning App"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/mobile-phones-do-not-disturb-controls",
+        "text": "Mobile Phones - Do Not Disturb Controls"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/take-screenshots",
+        "text": "Take Screenshots"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/send-documents-by-whatsapp",
+        "text": "Send Documents by WhatsApp"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/set-up-a-free-email-account",
+        "text": "Set up a Free Email Account"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance",
+        "text": "Digital Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/contactless-payments",
+        "text": "Contactless Payments"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/digital-wallets",
+        "text": "Digital Wallets"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/mobile-banking",
+        "text": "Mobile Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/open-banking",
+        "text": "Open Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/troubleshooting",
+        "text": "Troubleshooting"
+      },
+      {
+        "url": "/debtipedia/your-money/housing",
+        "text": "Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness",
+        "text": "Homelessness"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-adults",
+        "text": "Homelessness - Adults"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-age-16-to-17",
+        "text": "Homelessness - age 16 to 17"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/finding-emergency-housing",
+        "text": "Finding Emergency Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-decision-challenge",
+        "text": "Homelessness Decision Challenge"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners",
+        "text": "Homeowners"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners/sell-your-home-without-fees",
+        "text": "Sell your home without  fees"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent",
+        "text": "Private Rent"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/housing-disrepair",
+        "text": "Housing Disrepair"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/illegal-eviction-harassment",
+        "text": "Illegal Eviction &amp; Harassment"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/neighbour-disputes-anti-social-behaviour",
+        "text": "Neighbour Disputes &amp; Anti-Social Behaviour"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/overcrowding",
+        "text": "Overcrowding"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/renters-rights-responsibilities",
+        "text": "Renters Rights &amp; Responsibilities"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/rent-increases",
+        "text": "Rent Increases"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-8-notice",
+        "text": "Section 8 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-21-notice",
+        "text": "Section 21 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/tenancy-deposit-scheme",
+        "text": "Tenancy Deposit Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/bedroom-tax",
+        "text": "Bedroom Tax"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/draft-social-housing-charter",
+        "text": "Draft Social Housing Charter"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/illegal-eviction-harassment-social-housing",
+        "text": "Illegal Eviction &amp; Harassment (Social Housing)"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/local-housing-register",
+        "text": "Local Housing Register"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing-complaint-code",
+        "text": "Social Housing Complaint Code"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/untidy-tenancy",
+        "text": "Untidy Tenancy"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain",
+        "text": "Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/signs-of-debt",
+        "text": "Signs of Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/reasons-for-debt",
+        "text": "Reasons for Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/manage-financial-strain",
+        "text": "Manage Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt",
+        "text": "Getting Help with Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/meet-the-debt-adviser",
+        "text": "Meet the Debt Adviser"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/fca-debt-advice-regulation",
+        "text": "FCA Debt Advice Regulation"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/your-debt-advice-journey",
+        "text": "Your Debt Advice Journey"
+      },
+      {
+        "url": "/debtipedia/your-financial-health",
+        "text": "Your Financial Health"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances",
+        "text": "Audit Your Finances"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/benefit-calculators",
+        "text": "Benefit Calculators"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/Improving-Your-Budget",
+        "text": "Household Budget Audit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability",
+        "text": "Challenge Liability"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability/challenging-benefit-decisions",
+        "text": "Challenging Benefit Decisions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/personal-insolvency-test",
+        "text": "Personal Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting",
+        "text": "Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/create-a-budget",
+        "text": "Create a Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget",
+        "text": "Types of Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/deficit-budget",
+        "text": "Deficit Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/spare-income-budget",
+        "text": "Spare Income Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation",
+        "text": "Income Maximisation"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements",
+        "text": "Benefits &amp; Entitlements"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/a-to-z-welfare-benefits",
+        "text": "A to Z Welfare Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/armed-forces-independence-payment",
+        "text": "Armed Forces Independence Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/attendance-allowance",
+        "text": "Attendance Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/bereavement-support-payment",
+        "text": "Bereavement Support Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/carers-allowance",
+        "text": "Carer&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/child-benefit",
+        "text": "Child Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/christmas-bonus",
+        "text": "Christmas Bonus"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/council-tax-reduction-discounts",
+        "text": "Council Tax Reduction &amp; Discounts"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-living-allowance-kids",
+        "text": "Disability Living Allowance - Kids"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-premiums",
+        "text": "Disability Premiums"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/dual-housing-costs",
+        "text": "Dual Housing Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/employment-support-allowance-esa",
+        "text": "Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/permitted-work-for-employment-support-allowance-esa",
+        "text": "Permitted Work for Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/basic-state-pension",
+        "text": "Basic State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-pension-scheme-constant-attendance-allowance-caa",
+        "text": "War Pension Scheme: Constant Attendance Allowance (CAA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/mobility-supplement",
+        "text": "Mobility Supplement"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/guardians-allowance",
+        "text": "Guardian&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/housing-benefit",
+        "text": "Housing Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/how-when-benefits-are-paid",
+        "text": "How &amp; when Benefits are paid"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/incapacity-benefit",
+        "text": "Incapacity Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/income-support",
+        "text": "Income Support"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/industrial-injuries-disablement-benefit",
+        "text": "Industrial Injuries Disablement Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance",
+        "text": "Jobseeker&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance-sanctions",
+        "text": "Jobseeker&#39;s Allowance Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/maternity-allowance",
+        "text": "Maternity Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/motability-scheme",
+        "text": "Motability Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/new-state-pension",
+        "text": "New State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/nhs-dental-care",
+        "text": "NHS Dental Care"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/no-recourse-to-public-funds",
+        "text": "No Recourse to Public Funds"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/passported-benefits",
+        "text": "Passported Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pension-credit",
+        "text": "Pension Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip",
+        "text": "PIP"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip-application-questions",
+        "text": "PIP Application Questions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/sure-start-maternity-grant",
+        "text": "Sure Start Maternity Grant"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/savings-capital-rules-for-the-over-60s",
+        "text": "Savings &amp; Capital Rules for the over 60&#39;s"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-adoption-pay",
+        "text": "Statutory Adoption Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-maternity-pay",
+        "text": "Statutory Maternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-paternity-pay",
+        "text": "Statutory Paternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-sick-pay-ssp",
+        "text": "Statutory Sick Pay (SSP)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-child-funeral-costs",
+        "text": "Support for Child funeral costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/tax-credits",
+        "text": "Tax Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/the-benefit-cap",
+        "text": "The Benefit Cap"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit",
+        "text": "Universal Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-how-to-claim-online",
+        "text": "Universal Credit - How to Claim Online"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-sanctions",
+        "text": "Universal Credit Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-online-portal-home-page",
+        "text": "Universal Credit Online Portal Home Page"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-widows-or-war-widowers-pension",
+        "text": "War Widows or War Widowers Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/widowed-parents-allowance",
+        "text": "Widowed Parent&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-hours-for-benefits",
+        "text": "Working Hours for Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/calculating-hours-of-work",
+        "text": "Calculating Hours of Work"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/blue-badge-scheme",
+        "text": "Blue Badge Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/childcare-nursery-fees-early-years",
+        "text": "Childcare &amp; Nursery Fees Early Years"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/cold-weather-payment",
+        "text": "Cold Weather Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-for-students",
+        "text": "Financial Help for Students"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-with-school-costs",
+        "text": "Financial Help With School Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/healthy-start-scheme",
+        "text": "Healthy Start Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-funeral-costs",
+        "text": "Help with Funeral Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-public-transport-costs",
+        "text": "Help with Public Transport Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/immigration-benefits",
+        "text": "Immigration &amp; Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-mortgage-interest",
+        "text": "Support for Mortgage Interest"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/specified-adult-childcare-credits",
+        "text": "Specified Adult Childcare Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/winter-fuel-payment",
+        "text": "Winter Fuel Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/warm-home-discount-scheme",
+        "text": "Warm Home Discount Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-from-home-tax-relief",
+        "text": "Working from Home Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more",
+        "text": "Earn More"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/10-ways-to-boost-income",
+        "text": "10 Ways to boost income"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/rent-a-room-scheme",
+        "text": "Rent a Room Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help",
+        "text": "Hardship Help"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/budgeting-loan",
+        "text": "Budgeting Loan"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/discretionary-housing-payment",
+        "text": "Discretionary Housing Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/foodbanks",
+        "text": "Foodbanks"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/help-topping-up-a-prepayment-meter",
+        "text": "Help Topping up a Prepayment meter"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/universal-credit-advance",
+        "text": "Universal Credit Advance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/uc-hardship-payment",
+        "text": "UC Hardship Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money",
+        "text": "Managing Money"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips",
+        "text": "Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/20-food-budgeting-tips",
+        "text": "20 Food Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/jam-jar-budgeting",
+        "text": "Jam-Jar Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/loyalty-reward-cards-top-10",
+        "text": "Loyalty &amp; Reward Cards Top 10"
+      },
+      {
+        "url": "/debtipedia/your-debt",
+        "text": "Your Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice",
+        "text": "Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice",
+        "text": "About Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/debt-advice-guide",
+        "text": "Debt Advice Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/priority-debts",
+        "text": "Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/non-priority-debts",
+        "text": "Non -Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared",
+        "text": "Get Prepared"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/contacting-creditors",
+        "text": "Contacting Creditors"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/income-expenditure",
+        "text": "Income &amp; Expenditure"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/future-proofing",
+        "text": "Future Proofing"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/verification-documents",
+        "text": "Verification Documents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court",
+        "text": "Going to Court"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/litigants-in-person-guide",
+        "text": "Litigants in Person Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/free-or-cheaper-legal-advice",
+        "text": "Free or Cheaper Legal Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics",
+        "text": "Debt Advice Topics"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bailiffs-enforcement-agents",
+        "text": "Bailiffs - Enforcement Agents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bill-of-sale",
+        "text": "Bill of Sale"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/charging-orders",
+        "text": "Charging Orders"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-arrears",
+        "text": "Council Tax Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-bailiff-enforcement",
+        "text": "Council Tax Bailiff Enforcement"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/credit-debt-collection",
+        "text": "Credit Debt Collection"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/creditor-harassment",
+        "text": "Creditor Harassment"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/dealing-with-debt-when-a-person-dies",
+        "text": "Dealing with Debt when a person dies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-advice-in-scotland",
+        "text": "Debt Advice in Scotland"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-collection-agencies",
+        "text": "Debt Collection Agencies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-mental-health",
+        "text": "Debt &amp; Mental Health"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/default-notices",
+        "text": "Default Notices"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/divorce-separation",
+        "text": "Divorce &amp; Separation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/enforcement-of-debts",
+        "text": "Enforcement of Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/energy-debt",
+        "text": "Energy Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/help-with-court-fees",
+        "text": "Help with Court Fees"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/ignoring-debts",
+        "text": "Ignoring Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-bailiffs",
+        "text": "Magistrates Court Bailiffs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-fines",
+        "text": "Magistrates Court Fines"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/overpayment-of-benefits",
+        "text": "Overpayment of Benefits"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/problem-ivas",
+        "text": "Problem IVAs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/section-13a-council-tax-relief",
+        "text": "Section 13A Council Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statutory-demands",
+        "text": "Statutory Demands"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statute-barred-debts",
+        "text": "Statute Barred Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/tomlin-order",
+        "text": "Tomlin Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/vary-a-ccj",
+        "text": "Vary a CCJ"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/water-arrears",
+        "text": "Water Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears",
+        "text": "Housing Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears",
+        "text": "Mortgage Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-arrears-pre-action-protocol",
+        "text": "Mortgage Arrears Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-shortfalls",
+        "text": "Mortgage Shortfalls"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/negative-equity",
+        "text": "Negative Equity"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-interest-run-on",
+        "text": "Mortgage Interest Run on"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/court-action-for-mortgages-secured-loans",
+        "text": "Court Action for Mortgages &amp; Secured Loans"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears",
+        "text": "Rent Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-private-renting",
+        "text": "Rent Arrears - Private Renting"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-social-housing",
+        "text": "Rent Arrears - Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-possession-pre-action-protocol",
+        "text": "Rent Arrears Possession Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/pre-action-protocol-social-landlords",
+        "text": "Pre-Action Protocol  Social Landlords"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options",
+        "text": "Debt Options"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/administration-order",
+        "text": "Administration Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/bankruptcy",
+        "text": "Bankruptcy"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/breathing-space-scheme",
+        "text": "Breathing Space Scheme"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-management-plan",
+        "text": "Debt Management Plan"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-options-guide",
+        "text": "Debt Options Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-relief-order",
+        "text": "Debt Relief Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-reorganisation",
+        "text": "Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-write-off",
+        "text": "Debt Write-off"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/full-final-settlement-offers",
+        "text": "Full &amp; Final Settlement Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/informal-offers",
+        "text": "Informal Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/iva",
+        "text": "IVA"
+      },
+      {
+        "url": "/debtipedia/your-future",
+        "text": "Your Future"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience",
+        "text": "Financial Resilience"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/flexible-finances",
+        "text": "Flexible Finances"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/financial-capability",
+        "text": "Financial Capability"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/make-do-and-mend",
+        "text": "Make Do and Mend"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages",
+        "text": "Money Life Stages"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family",
+        "text": "Your Family"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/childhood-to-teens-0-18",
+        "text": "Childhood to Teens (0-18)"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/students-18",
+        "text": "Students 18+"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-retirement",
+        "text": "Your Retirement"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy",
+        "text": "Your Legacy"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy/types-of-wills",
+        "text": "Types of Wills"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/a-to-z-of-financial-products",
+        "text": "A to Z of Financial Products"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing",
+        "text": "Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions",
+        "text": "Addictions"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/alcohol-abuse",
+        "text": "Alcohol Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/drug-abuse",
+        "text": "Drug Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/problem-gambling",
+        "text": "Problem Gambling"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/relapse-prevention",
+        "text": "Relapse Prevention"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/quit-smoking",
+        "text": "Quit Smoking"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse",
+        "text": "Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/escaping-domestic-abuse",
+        "text": "Escaping Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/financial-abuse",
+        "text": "Financial Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/staying-in-abusive-relationships",
+        "text": "Staying in Abusive relationships"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind",
+        "text": "Health &amp; Mind"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/5-ways-to-wellbeing",
+        "text": "5 Ways to Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/eatwell",
+        "text": "Eatwell"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/living-alone",
+        "text": "Living Alone"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/loneliness",
+        "text": "Loneliness"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/relaxation-strategies",
+        "text": "Relaxation Strategies"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/sleep-well",
+        "text": "Sleep Well"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/stress-depression",
+        "text": "Stress &amp; Depression"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/suicidal-thoughts",
+        "text": "Suicidal Thoughts"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/wellbeing-toolkits",
+        "text": "Wellbeing Toolkits"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching",
+        "text": "Life Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/personal-development",
+        "text": "Personal Development"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/career-coaching",
+        "text": "Career Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/relationships-social-skills",
+        "text": "Relationships &amp; Social Skills"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/vision",
+        "text": "Vision"
+      },
+      {
+        "url": "/debtipedia/money-bizassist",
+        "text": "Money BizAssist"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning",
+        "text": "Financial Business Planning"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-plan",
+        "text": "Business Plan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance",
+        "text": "Business Finance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-banking",
+        "text": "Business Banking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/small-business-freebies",
+        "text": "Small Business Freebies"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-insurance",
+        "text": "Business Insurance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/payment-obligations-recovery",
+        "text": "Payment Obligations &amp; Recovery"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/financial-software",
+        "text": "Financial Software"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk",
+        "text": "Managing Business Risk"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-contingency-fund",
+        "text": "Business Contingency Fund"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-laws",
+        "text": "Business Laws"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/directors-income",
+        "text": "Director&#39;s Income"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property",
+        "text": "Commercial Property"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/non-domestic-rates",
+        "text": "Non-Domestic Rates"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/business-rates-relief",
+        "text": "Business Rates Relief"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records",
+        "text": "Financial Business Records"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention",
+        "text": "Document Retention"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention/digital-receipts",
+        "text": "Digital Receipts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing",
+        "text": "Reporting &amp; Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/companies-house-online-filing",
+        "text": "Companies House Online Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/dormant-accounts",
+        "text": "Dormant Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/self-employed-tax-return",
+        "text": "Self-employed Tax Return"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/tax-compliance-checks",
+        "text": "Tax Compliance Checks"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/corporation-tax",
+        "text": "Corporation Tax"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts",
+        "text": "Small Business Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/actuals",
+        "text": "Actuals"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/balance-sheet",
+        "text": "Balance Sheet"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/bank-reconciliiation",
+        "text": "Bank Reconciliiation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/cash-flow-forecast",
+        "text": "Cash Flow Forecast"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/fixed-asset-register",
+        "text": "Fixed Asset Register"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/petty-cash",
+        "text": "Petty Cash"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/profit-loss-statement",
+        "text": "Profit &amp; Loss Statement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/glossary-of-accountancy-terms",
+        "text": "Glossary of Accountancy Terms"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/untidy-accounts",
+        "text": "Untidy Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development",
+        "text": "Business Development"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/small-business-grants",
+        "text": "Small Business Grants"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing",
+        "text": "Marketing &amp; Advertsing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/market-research",
+        "text": "Market Research"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/online-advertising",
+        "text": "Online Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/free-advertising",
+        "text": "Free Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/social-media-campaigns",
+        "text": "Social Media Campaigns"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking",
+        "text": "Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking/video-networking",
+        "text": "Video Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/successful-business-tips",
+        "text": "Successful Business Tips"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt",
+        "text": "Help with Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress",
+        "text": "Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/signs-of-financial-distress",
+        "text": "Signs of Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/insolvency-test",
+        "text": "Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/liability-for-business-debt",
+        "text": "Liability for Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/other-business-debt-options",
+        "text": "Other Business Debt Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/statutory-demand",
+        "text": "Statutory Demand"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts",
+        "text": "Business Debts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/bounce-back-loan-debt",
+        "text": "Bounce Back Loan Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/covid-business-interruption-loan",
+        "text": "Covid Business Interruption Loan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/hmrc-tax-debt-fines",
+        "text": "HMRC Tax Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/vat-debt-fines",
+        "text": "VAT Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue",
+        "text": "Business Rescue"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/administration",
+        "text": "Administration"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/company-voluntary-arrangement",
+        "text": "Company Voluntary Arrangement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/business-debt-reorganisation",
+        "text": "Business Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/investment-options",
+        "text": "Investment Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/mergers-acquisitions",
+        "text": "Mergers &amp; Acquisitions"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/universal-credit-business-owners",
+        "text": "Universal Credit - Business Owners"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business",
+        "text": "Closing a Business"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/liquidation",
+        "text": "Liquidation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/striking-off-dissolution",
+        "text": "Striking off &amp; Dissolution"
+      },
+      {
+        "url": "/debtipedia/resources-tools",
+        "text": "Resources &amp; Tools"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-advice-passport",
+        "text": "Debt Advice Passport"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-club-toolkit",
+        "text": "Debt Club Toolkit"
+      },
+      {
+        "url": "/debtipedia/resources-tools/online-budget-tool",
+        "text": "Online Budget Tool"
+      },
+      {
+        "url": "/debtipedia/resources-tools/fact-sheet-library",
+        "text": "Fact Sheet Library"
+      },
+      {
+        "url": "/debtipedia/resources-tools/quiz",
+        "text": "Quiz"
+      },
+      {
+        "url": "/debtipedia/service-user-portal",
+        "text": "Service User Portal"
+      },
+      {
+        "url": "/debtipedia/service-user-portal/pip-preparation-form",
+        "text": "PIP Preparation Form"
+      },
+      {
+        "url": "/contact",
+        "text": "Contact"
+      },
+      {
+        "url": "/home",
+        "text": "Home"
+      },
+      {
+        "url": "/home/site-map",
+        "text": "Site Map"
+      },
+      {
+        "url": "/home/website-accessibility",
+        "text": "Website Accessibility"
+      },
+      {
+        "url": "/home/blog",
+        "text": "Blog"
+      },
+      {
+        "url": "/about",
+        "text": "About"
+      },
+      {
+        "url": "/about/our-charter",
+        "text": "Our Charter"
+      },
+      {
+        "url": "/about/our-charter/complaints",
+        "text": "Complaints"
+      },
+      {
+        "url": "/about/our-charter/service-user-policy",
+        "text": "Service User  Policy"
+      },
+      {
+        "url": "/about/services",
+        "text": "Services"
+      },
+      {
+        "url": "/about/recruitment",
+        "text": "Recruitment"
+      },
+      {
+        "url": "/about/volunteer",
+        "text": "Volunteer"
+      },
+      {
+        "url": "/about/work-placement",
+        "text": "Work Placement"
+      },
+      {
+        "url": "/debtipedia",
+        "text": "Debtipedia"
+      },
+      {
+        "url": "/debtipedia/your-money",
+        "text": "Your Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance",
+        "text": "Banking &amp; Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking",
+        "text": "Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/a-to-z-of-uk-digital-challenger-banks",
+        "text": "A to Z of UK Digital &#39;Challenger Banks&#39;"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/bank-accounts-safe-basic",
+        "text": "Bank Accounts - Safe &amp; Basic"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/cryptocurrency",
+        "text": "Cryptocurrency"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-ombudsman-service",
+        "text": "Financial Ombudsman Service"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/financial-services-compensation-scheme-fscs",
+        "text": "Financial Services Compensation Scheme (FSCS)"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/managing-a-bank-account",
+        "text": "Managing a Bank Account"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/payment-instructions",
+        "text": "Payment Instructions"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/banking/right-of-set-off-first-right-of-appropriation",
+        "text": "Right of Set-off &amp; First Right of Appropriation"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money",
+        "text": "Borrowing Money"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/bank-overdrafts",
+        "text": "Bank Overdrafts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/buy-now-pay-later",
+        "text": "Buy Now Pay Later"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/catalogue-credit",
+        "text": "Catalogue Credit"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-builder-cards",
+        "text": "Credit Builder Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/credit-cards",
+        "text": "Credit Cards"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/equity-release",
+        "text": "Equity Release"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/hire-purchase",
+        "text": "Hire Purchase"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/interest-only-mortgage-calculator",
+        "text": "Interest Only Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/loan-sharks",
+        "text": "Loan Sharks"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/repayment-mortgage-calculator",
+        "text": "Repayment Mortgage Calculator"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/logbook-loans",
+        "text": "Logbook Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/pcp-agreements",
+        "text": "PCP Agreements"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/borrowing-money/personal-loans",
+        "text": "Personal Loans"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score",
+        "text": "Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/credit-reference-agencies",
+        "text": "Credit Reference Agencies"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/improve-your-credit-score",
+        "text": "Improve your Credit Score"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/credit-score/correct-credit-report-errors",
+        "text": "Correct Credit Report Errors"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings",
+        "text": "Savings"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/help-to-save-scheme",
+        "text": "Help to Save Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/savings-accounts",
+        "text": "Savings Accounts"
+      },
+      {
+        "url": "/debtipedia/your-money/banking-finance/savings/types-of-savings-schemes",
+        "text": "Types of Savings  Schemes"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it",
+        "text": "Digital Skills - &quot;Getting Digi with it&quot;"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills",
+        "text": "Essential Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/basic-digital-skills",
+        "text": "Basic Digital Skills"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/dark-web",
+        "text": "Dark Web"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/digital-communnications",
+        "text": "Digital Communnications"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/enable-private-browsing",
+        "text": "Enable Private Browsing"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/handling-information-content",
+        "text": "Handling Information &amp; Content"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/create-secure-passwords",
+        "text": "Create Secure Passwords"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-consumer-rights",
+        "text": "Online Consumer Rights"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/online-safety-for-kids",
+        "text": "Online Safety for Kids"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/shopping-safely-online",
+        "text": "Shopping Safely Online"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/use-a-vpn",
+        "text": "Use a VPN"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/essential-digital-skills/erase-browsing-history",
+        "text": "Erase Browsing History"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools",
+        "text": "Digital Admin Tools"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/free-scanning-app",
+        "text": "Free Scanning App"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/mobile-phones-do-not-disturb-controls",
+        "text": "Mobile Phones - Do Not Disturb Controls"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/take-screenshots",
+        "text": "Take Screenshots"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/send-documents-by-whatsapp",
+        "text": "Send Documents by WhatsApp"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-admin-tools/set-up-a-free-email-account",
+        "text": "Set up a Free Email Account"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance",
+        "text": "Digital Finance"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/contactless-payments",
+        "text": "Contactless Payments"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/digital-wallets",
+        "text": "Digital Wallets"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/mobile-banking",
+        "text": "Mobile Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/digital-finance/open-banking",
+        "text": "Open Banking"
+      },
+      {
+        "url": "/debtipedia/your-money/digital-skills-getting-digi-with-it/troubleshooting",
+        "text": "Troubleshooting"
+      },
+      {
+        "url": "/debtipedia/your-money/housing",
+        "text": "Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness",
+        "text": "Homelessness"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-adults",
+        "text": "Homelessness - Adults"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-age-16-to-17",
+        "text": "Homelessness - age 16 to 17"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/finding-emergency-housing",
+        "text": "Finding Emergency Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homelessness/homelessness-decision-challenge",
+        "text": "Homelessness Decision Challenge"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners",
+        "text": "Homeowners"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/homeowners/sell-your-home-without-fees",
+        "text": "Sell your home without  fees"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent",
+        "text": "Private Rent"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/housing-disrepair",
+        "text": "Housing Disrepair"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/illegal-eviction-harassment",
+        "text": "Illegal Eviction &amp; Harassment"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/neighbour-disputes-anti-social-behaviour",
+        "text": "Neighbour Disputes &amp; Anti-Social Behaviour"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/overcrowding",
+        "text": "Overcrowding"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/renters-rights-responsibilities",
+        "text": "Renters Rights &amp; Responsibilities"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/rent-increases",
+        "text": "Rent Increases"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-8-notice",
+        "text": "Section 8 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/section-21-notice",
+        "text": "Section 21 Notice"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/private-rent/tenancy-deposit-scheme",
+        "text": "Tenancy Deposit Scheme"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/bedroom-tax",
+        "text": "Bedroom Tax"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/draft-social-housing-charter",
+        "text": "Draft Social Housing Charter"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/illegal-eviction-harassment-social-housing",
+        "text": "Illegal Eviction &amp; Harassment (Social Housing)"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/local-housing-register",
+        "text": "Local Housing Register"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing-complaint-code",
+        "text": "Social Housing Complaint Code"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/social-housing",
+        "text": "Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-money/housing/social-housing/untidy-tenancy",
+        "text": "Untidy Tenancy"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain",
+        "text": "Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/signs-of-debt",
+        "text": "Signs of Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/reasons-for-debt",
+        "text": "Reasons for Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/manage-financial-strain",
+        "text": "Manage Financial Strain"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt",
+        "text": "Getting Help with Debt"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/meet-the-debt-adviser",
+        "text": "Meet the Debt Adviser"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/fca-debt-advice-regulation",
+        "text": "FCA Debt Advice Regulation"
+      },
+      {
+        "url": "/debtipedia/your-money/financial-strain/getting-help-with-debt/your-debt-advice-journey",
+        "text": "Your Debt Advice Journey"
+      },
+      {
+        "url": "/debtipedia/your-financial-health",
+        "text": "Your Financial Health"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances",
+        "text": "Audit Your Finances"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/benefit-calculators",
+        "text": "Benefit Calculators"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/Improving-Your-Budget",
+        "text": "Household Budget Audit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability",
+        "text": "Challenge Liability"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/challenge-liability/challenging-benefit-decisions",
+        "text": "Challenging Benefit Decisions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/audit-your-finances/personal-insolvency-test",
+        "text": "Personal Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting",
+        "text": "Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/create-a-budget",
+        "text": "Create a Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget",
+        "text": "Types of Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/deficit-budget",
+        "text": "Deficit Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/budgeting/types-of-budget/spare-income-budget",
+        "text": "Spare Income Budget"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation",
+        "text": "Income Maximisation"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements",
+        "text": "Benefits &amp; Entitlements"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/a-to-z-welfare-benefits",
+        "text": "A to Z Welfare Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/armed-forces-independence-payment",
+        "text": "Armed Forces Independence Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/attendance-allowance",
+        "text": "Attendance Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/bereavement-support-payment",
+        "text": "Bereavement Support Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/carers-allowance",
+        "text": "Carer&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/child-benefit",
+        "text": "Child Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/christmas-bonus",
+        "text": "Christmas Bonus"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/council-tax-reduction-discounts",
+        "text": "Council Tax Reduction &amp; Discounts"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-living-allowance-kids",
+        "text": "Disability Living Allowance - Kids"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/disability-premiums",
+        "text": "Disability Premiums"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/dual-housing-costs",
+        "text": "Dual Housing Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/employment-support-allowance-esa",
+        "text": "Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/permitted-work-for-employment-support-allowance-esa",
+        "text": "Permitted Work for Employment Support Allowance (ESA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/basic-state-pension",
+        "text": "Basic State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-pension-scheme-constant-attendance-allowance-caa",
+        "text": "War Pension Scheme: Constant Attendance Allowance (CAA)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/mobility-supplement",
+        "text": "Mobility Supplement"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/guardians-allowance",
+        "text": "Guardian&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/housing-benefit",
+        "text": "Housing Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/how-when-benefits-are-paid",
+        "text": "How &amp; when Benefits are paid"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/incapacity-benefit",
+        "text": "Incapacity Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/income-support",
+        "text": "Income Support"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/industrial-injuries-disablement-benefit",
+        "text": "Industrial Injuries Disablement Benefit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance",
+        "text": "Jobseeker&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/jobseekers-allowance-sanctions",
+        "text": "Jobseeker&#39;s Allowance Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/maternity-allowance",
+        "text": "Maternity Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/motability-scheme",
+        "text": "Motability Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/new-state-pension",
+        "text": "New State Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/nhs-dental-care",
+        "text": "NHS Dental Care"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/no-recourse-to-public-funds",
+        "text": "No Recourse to Public Funds"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/passported-benefits",
+        "text": "Passported Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pension-credit",
+        "text": "Pension Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip",
+        "text": "PIP"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/pip-application-questions",
+        "text": "PIP Application Questions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/sure-start-maternity-grant",
+        "text": "Sure Start Maternity Grant"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/savings-capital-rules-for-the-over-60s",
+        "text": "Savings &amp; Capital Rules for the over 60&#39;s"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-adoption-pay",
+        "text": "Statutory Adoption Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-maternity-pay",
+        "text": "Statutory Maternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-paternity-pay",
+        "text": "Statutory Paternity Pay"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/statutory-sick-pay-ssp",
+        "text": "Statutory Sick Pay (SSP)"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-child-funeral-costs",
+        "text": "Support for Child funeral costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/tax-credits",
+        "text": "Tax Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/the-benefit-cap",
+        "text": "The Benefit Cap"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit",
+        "text": "Universal Credit"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-how-to-claim-online",
+        "text": "Universal Credit - How to Claim Online"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-sanctions",
+        "text": "Universal Credit Sanctions"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/universal-credit-online-portal-home-page",
+        "text": "Universal Credit Online Portal Home Page"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/war-widows-or-war-widowers-pension",
+        "text": "War Widows or War Widowers Pension"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/widowed-parents-allowance",
+        "text": "Widowed Parent&#39;s Allowance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-hours-for-benefits",
+        "text": "Working Hours for Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/calculating-hours-of-work",
+        "text": "Calculating Hours of Work"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/blue-badge-scheme",
+        "text": "Blue Badge Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/childcare-nursery-fees-early-years",
+        "text": "Childcare &amp; Nursery Fees Early Years"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/cold-weather-payment",
+        "text": "Cold Weather Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-for-students",
+        "text": "Financial Help for Students"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/financial-help-with-school-costs",
+        "text": "Financial Help With School Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/healthy-start-scheme",
+        "text": "Healthy Start Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-funeral-costs",
+        "text": "Help with Funeral Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/help-with-public-transport-costs",
+        "text": "Help with Public Transport Costs"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/immigration-benefits",
+        "text": "Immigration &amp; Benefits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/support-for-mortgage-interest",
+        "text": "Support for Mortgage Interest"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/specified-adult-childcare-credits",
+        "text": "Specified Adult Childcare Credits"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/winter-fuel-payment",
+        "text": "Winter Fuel Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/warm-home-discount-scheme",
+        "text": "Warm Home Discount Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/benefits-entitlements/working-from-home-tax-relief",
+        "text": "Working from Home Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more",
+        "text": "Earn More"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/10-ways-to-boost-income",
+        "text": "10 Ways to boost income"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/earn-more/rent-a-room-scheme",
+        "text": "Rent a Room Scheme"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help",
+        "text": "Hardship Help"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/budgeting-loan",
+        "text": "Budgeting Loan"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/discretionary-housing-payment",
+        "text": "Discretionary Housing Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/foodbanks",
+        "text": "Foodbanks"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/help-topping-up-a-prepayment-meter",
+        "text": "Help Topping up a Prepayment meter"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/universal-credit-advance",
+        "text": "Universal Credit Advance"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/income-maximisation/hardship-help/uc-hardship-payment",
+        "text": "UC Hardship Payment"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money",
+        "text": "Managing Money"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips",
+        "text": "Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/20-food-budgeting-tips",
+        "text": "20 Food Budgeting Tips"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/jam-jar-budgeting",
+        "text": "Jam-Jar Budgeting"
+      },
+      {
+        "url": "/debtipedia/your-financial-health/managing-money/budgeting-tips/loyalty-reward-cards-top-10",
+        "text": "Loyalty &amp; Reward Cards Top 10"
+      },
+      {
+        "url": "/debtipedia/your-debt",
+        "text": "Your Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice",
+        "text": "Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice",
+        "text": "About Debt Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/debt-advice-guide",
+        "text": "Debt Advice Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/priority-debts",
+        "text": "Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/about-debt-advice/non-priority-debts",
+        "text": "Non -Priority Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared",
+        "text": "Get Prepared"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/contacting-creditors",
+        "text": "Contacting Creditors"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/income-expenditure",
+        "text": "Income &amp; Expenditure"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/future-proofing",
+        "text": "Future Proofing"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/get-prepared/verification-documents",
+        "text": "Verification Documents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court",
+        "text": "Going to Court"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/litigants-in-person-guide",
+        "text": "Litigants in Person Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice/going-to-court/free-or-cheaper-legal-advice",
+        "text": "Free or Cheaper Legal Advice"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics",
+        "text": "Debt Advice Topics"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bailiffs-enforcement-agents",
+        "text": "Bailiffs - Enforcement Agents"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/bill-of-sale",
+        "text": "Bill of Sale"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/charging-orders",
+        "text": "Charging Orders"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-arrears",
+        "text": "Council Tax Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/council-tax-bailiff-enforcement",
+        "text": "Council Tax Bailiff Enforcement"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/credit-debt-collection",
+        "text": "Credit Debt Collection"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/creditor-harassment",
+        "text": "Creditor Harassment"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/dealing-with-debt-when-a-person-dies",
+        "text": "Dealing with Debt when a person dies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-advice-in-scotland",
+        "text": "Debt Advice in Scotland"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-collection-agencies",
+        "text": "Debt Collection Agencies"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/debt-mental-health",
+        "text": "Debt &amp; Mental Health"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/default-notices",
+        "text": "Default Notices"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/divorce-separation",
+        "text": "Divorce &amp; Separation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/enforcement-of-debts",
+        "text": "Enforcement of Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/energy-debt",
+        "text": "Energy Debt"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/help-with-court-fees",
+        "text": "Help with Court Fees"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/ignoring-debts",
+        "text": "Ignoring Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-bailiffs",
+        "text": "Magistrates Court Bailiffs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/magistrates-court-fines",
+        "text": "Magistrates Court Fines"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/overpayment-of-benefits",
+        "text": "Overpayment of Benefits"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/problem-ivas",
+        "text": "Problem IVAs"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/section-13a-council-tax-relief",
+        "text": "Section 13A Council Tax Relief"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statutory-demands",
+        "text": "Statutory Demands"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/statute-barred-debts",
+        "text": "Statute Barred Debts"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/tomlin-order",
+        "text": "Tomlin Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/vary-a-ccj",
+        "text": "Vary a CCJ"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-advice-topics/water-arrears",
+        "text": "Water Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears",
+        "text": "Housing Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears",
+        "text": "Mortgage Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-arrears-pre-action-protocol",
+        "text": "Mortgage Arrears Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-shortfalls",
+        "text": "Mortgage Shortfalls"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/negative-equity",
+        "text": "Negative Equity"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/mortgage-interest-run-on",
+        "text": "Mortgage Interest Run on"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/mortgage-arrears/court-action-for-mortgages-secured-loans",
+        "text": "Court Action for Mortgages &amp; Secured Loans"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears",
+        "text": "Rent Arrears"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-private-renting",
+        "text": "Rent Arrears - Private Renting"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-social-housing",
+        "text": "Rent Arrears - Social Housing"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/rent-arrears-possession-pre-action-protocol",
+        "text": "Rent Arrears Possession Pre-action Protocol"
+      },
+      {
+        "url": "/debtipedia/your-debt/housing-arrears/rent-arrears/pre-action-protocol-social-landlords",
+        "text": "Pre-Action Protocol  Social Landlords"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options",
+        "text": "Debt Options"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/administration-order",
+        "text": "Administration Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/bankruptcy",
+        "text": "Bankruptcy"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/breathing-space-scheme",
+        "text": "Breathing Space Scheme"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-management-plan",
+        "text": "Debt Management Plan"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-options-guide",
+        "text": "Debt Options Guide"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-relief-order",
+        "text": "Debt Relief Order"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-reorganisation",
+        "text": "Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/debt-write-off",
+        "text": "Debt Write-off"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/full-final-settlement-offers",
+        "text": "Full &amp; Final Settlement Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/informal-offers",
+        "text": "Informal Offers"
+      },
+      {
+        "url": "/debtipedia/your-debt/debt-options/iva",
+        "text": "IVA"
+      },
+      {
+        "url": "/debtipedia/your-future",
+        "text": "Your Future"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience",
+        "text": "Financial Resilience"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/flexible-finances",
+        "text": "Flexible Finances"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/financial-capability",
+        "text": "Financial Capability"
+      },
+      {
+        "url": "/debtipedia/your-future/financial-resilience/make-do-and-mend",
+        "text": "Make Do and Mend"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages",
+        "text": "Money Life Stages"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family",
+        "text": "Your Family"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/childhood-to-teens-0-18",
+        "text": "Childhood to Teens (0-18)"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-family/students-18",
+        "text": "Students 18+"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-retirement",
+        "text": "Your Retirement"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy",
+        "text": "Your Legacy"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/your-legacy/types-of-wills",
+        "text": "Types of Wills"
+      },
+      {
+        "url": "/debtipedia/your-future/money-life-stages/a-to-z-of-financial-products",
+        "text": "A to Z of Financial Products"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing",
+        "text": "Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions",
+        "text": "Addictions"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/alcohol-abuse",
+        "text": "Alcohol Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/drug-abuse",
+        "text": "Drug Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/problem-gambling",
+        "text": "Problem Gambling"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/relapse-prevention",
+        "text": "Relapse Prevention"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/addictions/quit-smoking",
+        "text": "Quit Smoking"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse",
+        "text": "Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/escaping-domestic-abuse",
+        "text": "Escaping Domestic Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/financial-abuse",
+        "text": "Financial Abuse"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/domestic-abuse/staying-in-abusive-relationships",
+        "text": "Staying in Abusive relationships"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind",
+        "text": "Health &amp; Mind"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/5-ways-to-wellbeing",
+        "text": "5 Ways to Wellbeing"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/eatwell",
+        "text": "Eatwell"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/living-alone",
+        "text": "Living Alone"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/loneliness",
+        "text": "Loneliness"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/relaxation-strategies",
+        "text": "Relaxation Strategies"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/sleep-well",
+        "text": "Sleep Well"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/stress-depression",
+        "text": "Stress &amp; Depression"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/health-mind/suicidal-thoughts",
+        "text": "Suicidal Thoughts"
+      },
+      {
+        "url": "/debtipedia/your-future/wellbeing/wellbeing-toolkits",
+        "text": "Wellbeing Toolkits"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching",
+        "text": "Life Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/personal-development",
+        "text": "Personal Development"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/career-coaching",
+        "text": "Career Coaching"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/relationships-social-skills",
+        "text": "Relationships &amp; Social Skills"
+      },
+      {
+        "url": "/debtipedia/your-future/life-coaching/vision",
+        "text": "Vision"
+      },
+      {
+        "url": "/debtipedia/money-bizassist",
+        "text": "Money BizAssist"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning",
+        "text": "Financial Business Planning"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-plan",
+        "text": "Business Plan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance",
+        "text": "Business Finance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-banking",
+        "text": "Business Banking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/small-business-freebies",
+        "text": "Small Business Freebies"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/business-insurance",
+        "text": "Business Insurance"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/business-finance/payment-obligations-recovery",
+        "text": "Payment Obligations &amp; Recovery"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/financial-software",
+        "text": "Financial Software"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk",
+        "text": "Managing Business Risk"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-contingency-fund",
+        "text": "Business Contingency Fund"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/managing-business-risk/business-laws",
+        "text": "Business Laws"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/directors-income",
+        "text": "Director&#39;s Income"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property",
+        "text": "Commercial Property"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/non-domestic-rates",
+        "text": "Non-Domestic Rates"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-planning/commercial-property/business-rates-relief",
+        "text": "Business Rates Relief"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records",
+        "text": "Financial Business Records"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention",
+        "text": "Document Retention"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/document-retention/digital-receipts",
+        "text": "Digital Receipts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing",
+        "text": "Reporting &amp; Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/companies-house-online-filing",
+        "text": "Companies House Online Filing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/dormant-accounts",
+        "text": "Dormant Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/self-employed-tax-return",
+        "text": "Self-employed Tax Return"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/tax-compliance-checks",
+        "text": "Tax Compliance Checks"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/reporting-filing/corporation-tax",
+        "text": "Corporation Tax"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts",
+        "text": "Small Business Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/actuals",
+        "text": "Actuals"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/balance-sheet",
+        "text": "Balance Sheet"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/bank-reconciliiation",
+        "text": "Bank Reconciliiation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/cash-flow-forecast",
+        "text": "Cash Flow Forecast"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/fixed-asset-register",
+        "text": "Fixed Asset Register"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/petty-cash",
+        "text": "Petty Cash"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/profit-loss-statement",
+        "text": "Profit &amp; Loss Statement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/small-business-accounts/glossary-of-accountancy-terms",
+        "text": "Glossary of Accountancy Terms"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/financial-business-records/untidy-accounts",
+        "text": "Untidy Accounts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development",
+        "text": "Business Development"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/small-business-grants",
+        "text": "Small Business Grants"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing",
+        "text": "Marketing &amp; Advertsing"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/market-research",
+        "text": "Market Research"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/online-advertising",
+        "text": "Online Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/free-advertising",
+        "text": "Free Advertising"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/marketing-advertsing/social-media-campaigns",
+        "text": "Social Media Campaigns"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking",
+        "text": "Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/networking/video-networking",
+        "text": "Video Networking"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/business-development/successful-business-tips",
+        "text": "Successful Business Tips"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt",
+        "text": "Help with Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress",
+        "text": "Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/signs-of-financial-distress",
+        "text": "Signs of Financial Distress"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/insolvency-test",
+        "text": "Insolvency Test"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/liability-for-business-debt",
+        "text": "Liability for Business Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/other-business-debt-options",
+        "text": "Other Business Debt Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/financial-distress/statutory-demand",
+        "text": "Statutory Demand"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts",
+        "text": "Business Debts"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/bounce-back-loan-debt",
+        "text": "Bounce Back Loan Debt"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/covid-business-interruption-loan",
+        "text": "Covid Business Interruption Loan"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/hmrc-tax-debt-fines",
+        "text": "HMRC Tax Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-debts/vat-debt-fines",
+        "text": "VAT Debt &amp; Fines"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue",
+        "text": "Business Rescue"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/administration",
+        "text": "Administration"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/company-voluntary-arrangement",
+        "text": "Company Voluntary Arrangement"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/business-debt-reorganisation",
+        "text": "Business Debt Reorganisation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/investment-options",
+        "text": "Investment Options"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/mergers-acquisitions",
+        "text": "Mergers &amp; Acquisitions"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/business-rescue/universal-credit-business-owners",
+        "text": "Universal Credit - Business Owners"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business",
+        "text": "Closing a Business"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/liquidation",
+        "text": "Liquidation"
+      },
+      {
+        "url": "/debtipedia/money-bizassist/help-with-business-debt/closing-a-business/striking-off-dissolution",
+        "text": "Striking off &amp; Dissolution"
+      },
+      {
+        "url": "/debtipedia/resources-tools",
+        "text": "Resources &amp; Tools"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-advice-passport",
+        "text": "Debt Advice Passport"
+      },
+      {
+        "url": "/debtipedia/resources-tools/debt-club-toolkit",
+        "text": "Debt Club Toolkit"
+      },
+      {
+        "url": "/debtipedia/resources-tools/online-budget-tool",
+        "text": "Online Budget Tool"
+      },
+      {
+        "url": "/debtipedia/resources-tools/fact-sheet-library",
+        "text": "Fact Sheet Library"
+      },
+      {
+        "url": "/debtipedia/resources-tools/quiz",
+        "text": "Quiz"
+      },
+      {
+        "url": "/debtipedia/service-user-portal",
+        "text": "Service User Portal"
+      },
+      {
+        "url": "/debtipedia/service-user-portal/pip-preparation-form",
+        "text": "PIP Preparation Form"
+      },
+      {
+        "url": "/contact",
+        "text": "Contact"
+      }
+    ]
+  ],
+  "categories": [
+    "section",
+    "Section",
+    "topic",
+    "Topic"
+  ],
+  "articles": [],
+  "structure": {
+    "hasHeader": true,
+    "hasFooter": true,
+    "hasNav": true,
+    "hasSidebar": false,
+    "hasArticles": false,
+    "responsive": true
+  },
+  "timestamp": "2025-10-31T16:04:29.775Z"
+}
