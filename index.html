@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <!-- Google AdSense - Priority Loading -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914004429115810" crossorigin="anonymous"></script>
   <meta name="google-adsense-account" content="ca-pub-6914004429115810">
@@ -88,7 +91,19 @@
     @media(max-width:768px){.hero h1{font-size:2.2rem}.main-nav{display:none}}
   </style>
   <link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+  <noscript><style>
+:root{--bg:#667eea;--text:#2d3748;--accent:#e53e3e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;color:var(--text);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:0 15px}
+.site-header{background:#1a202c;color:#fff;padding:15px 0}
+.logo{font-weight:900;color:#fff;text-decoration:none;font-size:2rem}
+.hero{padding:60px 0;text-align:center;background:#f7fafc}
+.hero h1{font-size:3rem;margin-bottom:20px;font-weight:800}
+@media(max-width:768px){.hero h1{font-size:2rem}}
+</style>
+  <link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/style.css"></noscript></noscript>
   <link rel="manifest" href="manifest.json">
   
   <!-- Favicon -->
@@ -174,7 +189,7 @@
 
       <div class="secondary-stories">
         <article class="card">
-          <img src="assets/images/placeholder.svg" alt="Loans" loading="lazy">
+          <img loading="lazy" src="assets/images/placeholder.svg" alt="Loans" loading="lazy">
           <div class="card-content">
             <h2><a href="articles/loans.html">Loan Rates Hit 5-Year Low</a></h2>
             <div class="meta">Financial Desk | Today</div>
@@ -187,7 +202,7 @@
         </article>
 
         <article class="card">
-          <img src="assets/images/placeholder.svg" alt="Hosting" loading="lazy">
+          <img loading="lazy" src="assets/images/placeholder.svg" alt="Hosting" loading="lazy">
           <div class="card-content">
             <h2><a href="reviews/hosting-reviews.html">Tech Review: Best Web Hosts 2025</a></h2>
             <div class="meta">Tech Reporter | Yesterday</div>
@@ -200,7 +215,7 @@
         </article>
 
         <article class="card">
-          <img src="assets/images/placeholder.svg" alt="Health" loading="lazy">
+          <img loading="lazy" src="assets/images/placeholder.svg" alt="Health" loading="lazy">
           <div class="card-content">
             <h2><a href="articles/health.html">Healthcare Costs: 2025 Outlook</a></h2>
             <div class="meta">Health Correspondent | 2 days ago</div>
@@ -487,8 +502,9 @@
       navigator.serviceWorker.register('/sw.js');
     }
   </script>
-  <script src="assets/js/lazy-load.js"></script>
+  <script src="assets/js/lazy-load.js" defer></script>
   <script src="assets/js/main.js" defer></script>
   <script src="assets/js/mobile.js" defer></script>
+  <script src="assets/js/web-vitals.js" defer></script>
 </body>
 </html>
