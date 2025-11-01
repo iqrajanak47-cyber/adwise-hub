@@ -1,6 +1,6 @@
 node_modules
 .git
 *.log
-.env.local
-.DS_Store
-Thumbs.db
+.env
+daily-ai-bot/node_modules
+daily-ai-bot/.env
