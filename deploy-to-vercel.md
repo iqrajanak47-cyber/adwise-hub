@@ -52,7 +52,7 @@ vercel --prod
 Replace `localhost/advise-hub` with your Vercel URL:
 ```bash
 # Find and replace in all files
-# From: http://localhost/advise-hub/
+# From: https://moneyadvisehub.com/
 # To: https://your-project.vercel.app/
 ```
 
@@ -66,7 +66,7 @@ Replace `localhost/advise-hub` with your Vercel URL:
 2. Add any required variables
 
 ## Your Live URLs
-- **Vercel URL**: `https://advise-hub.vercel.app`
+- **Vercel URL**: `https://moneyadvisehub.com`
 - **Custom Domain**: `https://yourdomain.com` (if configured)
 
 ## Files Created for Deployment

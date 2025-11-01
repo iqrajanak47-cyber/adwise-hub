@@ -34,7 +34,7 @@ function checkHTTP() {
     const domains = [
         'https://moneyadvisehub.com',
         'https://www.moneyadvisehub.com',
-        'https://advise-oylki82ud-iqrajans-projects.vercel.app'
+        'https://moneyadvisehub.com'
     ];
     
     domains.forEach(url => {

@@ -6,12 +6,12 @@ This static site skeleton includes SEO-ready pages, AdSense placeholders, compar
 
 1. **Start XAMPP** and ensure Apache is running
 2. **Run the batch file**: Double-click `start-server.bat`
-3. **Or manually visit**: http://localhost/advise-hub/
+3. **Or manually visit**: https://moneyadvisehub.com/
 
 ### 📄 Available URLs:
-- **Server Info**: http://localhost/advise-hub/server-info.php
-- **Main Site**: http://localhost/advise-hub/
-- **Homepage**: http://localhost/advise-hub/index.html
+- **Server Info**: https://moneyadvisehub.com/server-info.php
+- **Main Site**: https://moneyadvisehub.com/
+- **Homepage**: https://moneyadvisehub.com/index.html
 
 ## 🌐 Steps to deploy
 1. Replace `localhost/advise-hub` with your real domain in files and update images.

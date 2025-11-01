@@ -3,7 +3,7 @@
 ## ✅ WEBSITE STATUS: FULLY FUNCTIONAL
 
 ### 🌐 **WORKING URL**
-**https://advise-oylki82ud-iqrajans-projects.vercel.app/**
+**https://moneyadvisehub.com/**
 
 ---
 

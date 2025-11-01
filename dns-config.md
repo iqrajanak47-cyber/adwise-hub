@@ -3,7 +3,7 @@
 ## Current Issue
 - Domain: moneyadvisehub.com
 - Status: ERR_FAILED (DNS not pointing to Vercel)
-- Working URL: https://advise-oylki82ud-iqrajans-projects.vercel.app/
+- Working URL: https://moneyadvisehub.com/
 
 ## Required DNS Records
 

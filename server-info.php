@@ -28,7 +28,7 @@
             <p><strong>Status:</strong> <span class="status">✅ Running</span> | 
             <strong>Time:</strong> <?= date('M j, Y - H:i:s') ?> | 
             <strong>PHP:</strong> <?= phpversion() ?></p>
-            <p><strong>URL:</strong> <code>http://localhost/advise-hub/</code></p>
+            <p><strong>URL:</strong> <code>https://moneyadvisehub.com/</code></p>
         </div>
 
         <h2>📄 Site Navigation</h2>

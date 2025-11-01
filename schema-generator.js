@@ -4,7 +4,7 @@ const PUBLISHER = {
   "name": "Advise Hub",
   "logo": {
     "@type": "ImageObject",
-    "url": "http://localhost/advise-hub/assets/images/logo.png",
+    "url": "https://moneyadvisehub.com/assets/images/logo.png",
     "width": 200,
     "height": 60
   }
