@@ -1,0 +1,254 @@
+{
+  "timestamp": "2025-11-01T10:30:42.449Z",
+  "total": 128,
+  "working": 29,
+  "broken": 32,
+  "brokenLinks": [
+    {
+      "url": "https://fonts.googleapis.com",
+      "status": 404
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com",
+      "status": 404
+    },
+    {
+      "url": "https://www.googletagmanager.com",
+      "status": 404
+    },
+    {
+      "url": "https://adwise-oylki82ud-iqrajans-projects.vercel.app/",
+      "status": 401
+    },
+    {
+      "url": "https://moneyadvisehub.com/ssl/cloudflare.crt",
+      "status": 404
+    },
+    {
+      "url": "https://fonts.googleapis.com",
+      "status": "timeout"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com",
+      "status": "timeout"
+    },
+    {
+      "url": "https://www.googletagmanager.com",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/assets/css/style.css",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/assets/js/main.js",
+      "status": "timeout"
+    },
+    {
+      "url": "https://adwise-oylki82ud-iqrajans-projects.vercel.app/",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/ssl/cloudflare.crt",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/manifest.json",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/assets/images/placeholder.svg",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/index.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/posts.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/car-insurance-2025.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/loans.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/mortgage.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/legal.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/hosting.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/health.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/reviews/insurance-reviews.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/compare/insurance-compare.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://twitter.com/moneyadvisehub",
+      "status": 403
+    },
+    {
+      "url": "https://moneyadvisehub.com/tools/calculators.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/about.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/contact.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://linkedin.com/company/moneyadvisehub",
+      "status": 999
+    },
+    {
+      "url": "https://moneyadvisehub.com/terms.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://moneyadvisehub.com/disclaimer.html",
+      "status": "timeout"
+    },
+    {
+      "url": "https://adwise-oylki82ud-iqrajans-projects.vercel.app/posts.html",
+      "status": 401
+    }
+  ],
+  "workingLinks": [
+    {
+      "url": "https://moneyadvisehub.com/assets/css/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://moneyadvisehub.com/assets/js/main.js",
+      "status": 200
+    },
+    {
+      "url": "https://moneyadvisehub.com/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "https://moneyadvisehub.com/assets/images/placeholder.svg",
+      "status": 200
+    },
+    {
+      "url": "https://moneyadvisehub.com/index.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/posts.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/car-insurance-2025.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/loans.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/mortgage.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/legal.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/hosting.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/health.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/reviews/insurance-reviews.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/compare/insurance-compare.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/tools/calculators.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/about.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/contact.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/terms.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/disclaimer.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/insurance.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/compare/hosting-compare.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/reviews/hosting-reviews.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/tools/mortgage-calculator.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/reviews/loan-app-reviews.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/tools/emi-calculator.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/privacy.html",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/health.html#recovery",
+      "status": 308
+    },
+    {
+      "url": "https://moneyadvisehub.com/articles/health.html#costs",
+      "status": 308
+    },
+    {
+      "url": "https://facebook.com/moneyadvisehub",
+      "status": 301
+    }
+  ]
+}
