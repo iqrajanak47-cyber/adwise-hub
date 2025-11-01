@@ -4,10 +4,10 @@ const path = require('path');
 const fixes = {
   'G-511130452': 'G-XW1ZYER79Q',
   'ca-pub-1234567890123456': 'ca-pub-6914004429115810',
-  'localhost/adwise-hub': 'moneyadvisehub.com',
-  'http://localhost/adwise-hub': 'https://moneyadvisehub.com',
-  'AdWise Hub': 'Money Advise Hub',
-  'adwise-oylki82ud-iqrajans-projects.vercel.app': 'moneyadvisehub.com',
+  'localhost/advise-hub': 'moneyadvisehub.com',
+  'http://localhost/advise-hub': 'https://moneyadvisehub.com',
+  'Advise Hub': 'Money Advise Hub',
+  'advise-oylki82ud-iqrajans-projects.vercel.app': 'moneyadvisehub.com',
   'www.yourdomain.com': 'moneyadvisehub.com'
 };
 

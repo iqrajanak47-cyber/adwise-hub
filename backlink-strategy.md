@@ -1,4 +1,4 @@
-# AdWise Hub - Internal Linking & SEO Strategy
+# Advise Hub - Internal Linking & SEO Strategy
 
 ## Internal Link Structure
 

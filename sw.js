@@ -1,5 +1,5 @@
 // Service Worker for caching and performance
-const CACHE_NAME = 'adwise-hub-v1';
+const CACHE_NAME = 'advise-hub-v1';
 const STATIC_CACHE = [
   '/',
   '/index.html',

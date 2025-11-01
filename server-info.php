@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>AdWise Hub - Development Server</title>
+    <title>Advise Hub - Development Server</title>
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         body{font:16px Arial,sans-serif;background:#f8fafc;padding:20px}
@@ -22,13 +22,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>📰 AdWise Hub - Development Server</h1>
+        <h1>📰 Advise Hub - Development Server</h1>
         
         <div class="info">
             <p><strong>Status:</strong> <span class="status">✅ Running</span> | 
             <strong>Time:</strong> <?= date('M j, Y - H:i:s') ?> | 
             <strong>PHP:</strong> <?= phpversion() ?></p>
-            <p><strong>URL:</strong> <code>http://localhost/adwise-hub/</code></p>
+            <p><strong>URL:</strong> <code>http://localhost/advise-hub/</code></p>
         </div>
 
         <h2>📄 Site Navigation</h2>

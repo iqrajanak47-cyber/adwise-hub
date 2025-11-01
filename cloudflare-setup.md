@@ -4,12 +4,12 @@
 ```
 Type: CNAME
 Name: www
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 Proxy: ON (Orange Cloud)
 
 Type: CNAME
 Name: @
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 Proxy: ON (Orange Cloud)
 ```
 

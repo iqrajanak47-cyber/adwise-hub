@@ -20,12 +20,12 @@
 ```
 Type: CNAME Record
 Host: www
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 TTL: Automatic
 
 Type: CNAME Record  
 Host: @
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 TTL: Automatic
 ```
 
@@ -35,8 +35,8 @@ TTL: Automatic
 
 ### 5. Verify Settings
 Your DNS records should look like:
-- www CNAME adwise-oylki82ud-iqrajans-projects.vercel.app
-- @ CNAME adwise-oylki82ud-iqrajans-projects.vercel.app
+- www CNAME advise-oylki82ud-iqrajans-projects.vercel.app
+- @ CNAME advise-oylki82ud-iqrajans-projects.vercel.app
 
 ### 6. Add to Vercel
 - Go to https://vercel.com/dashboard

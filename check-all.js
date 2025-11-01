@@ -175,7 +175,7 @@ function generateSummary() {
     console.log('✅ Analytics: Active');
     console.log('✅ AdSense: Ready');
     console.log('');
-    console.log('🌐 WORKING URL: https://adwise-oylki82ud-iqrajans-projects.vercel.app/');
+    console.log('🌐 WORKING URL: https://advise-oylki82ud-iqrajans-projects.vercel.app/');
     console.log('❌ DOMAIN ISSUE: moneyadvisehub.com needs DNS configuration');
     console.log('');
     console.log('🎉 WEBSITE STATUS: FULLY FUNCTIONAL');

@@ -1,4 +1,4 @@
-// AdWise Hub - Enhanced Main JavaScript
+// Advise Hub - Enhanced Main JavaScript
 document.addEventListener('DOMContentLoaded', () => {
   // Update copyright year
   document.querySelectorAll('[id^="year"]').forEach(el => 

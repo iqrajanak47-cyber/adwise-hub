@@ -1,10 +1,10 @@
 // Schema generators for SEO
 const PUBLISHER = {
   "@type": "Organization",
-  "name": "AdWise Hub",
+  "name": "Advise Hub",
   "logo": {
     "@type": "ImageObject",
-    "url": "http://localhost/adwise-hub/assets/images/logo.png",
+    "url": "http://localhost/advise-hub/assets/images/logo.png",
     "width": 200,
     "height": 60
   }

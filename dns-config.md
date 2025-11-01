@@ -3,7 +3,7 @@
 ## Current Issue
 - Domain: moneyadvisehub.com
 - Status: ERR_FAILED (DNS not pointing to Vercel)
-- Working URL: https://adwise-oylki82ud-iqrajans-projects.vercel.app/
+- Working URL: https://advise-oylki82ud-iqrajans-projects.vercel.app/
 
 ## Required DNS Records
 
@@ -11,13 +11,13 @@
 ```
 Type: CNAME
 Name: www
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 Proxy: ON (Orange Cloud)
 TTL: Auto
 
 Type: CNAME  
 Name: @
-Value: adwise-oylki82ud-iqrajans-projects.vercel.app
+Value: advise-oylki82ud-iqrajans-projects.vercel.app
 Proxy: ON (Orange Cloud)
 TTL: Auto
 ```
@@ -37,7 +37,7 @@ TTL: 300
 
 ## Vercel Domain Setup
 1. Go to Vercel Dashboard
-2. Select your project: adwise-hub
+2. Select your project: advise-hub
 3. Go to Settings > Domains
 4. Add domain: moneyadvisehub.com
 5. Add domain: www.moneyadvisehub.com

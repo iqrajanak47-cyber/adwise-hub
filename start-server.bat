@@ -1,7 +1,7 @@
 @echo off
 color 0A
 echo ========================================
-echo   AdWise Hub - Newspaper Theme v2.0
+echo   Advise Hub - Newspaper Theme v2.0
 echo ========================================
 echo.
 echo [1] Checking XAMPP status...
@@ -22,15 +22,15 @@ if %errorlevel%==0 (
 echo.
 echo [2] Opening website...
 timeout /t 2 /nobreak >nul
-start http://localhost/adwise-hub/index.html
+start http://localhost/advise-hub/index.html
 echo.
 echo ========================================
 echo   ✅ WEBSITE LAUNCHED SUCCESSFULLY
 echo ========================================
-echo Main Site: http://localhost/adwise-hub/
-echo Server Info: http://localhost/adwise-hub/server-info.php
-echo Calculators: http://localhost/adwise-hub/tools/
-echo All Pages: http://localhost/adwise-hub/sitemap.html
+echo Main Site: http://localhost/advise-hub/
+echo Server Info: http://localhost/advise-hub/server-info.php
+echo Calculators: http://localhost/advise-hub/tools/
+echo All Pages: http://localhost/advise-hub/sitemap.html
 echo ========================================
 echo.
 echo Press any key to exit...

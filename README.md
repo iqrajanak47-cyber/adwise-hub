@@ -1,4 +1,4 @@
-# AdWise Hub - Static Website
+# Advise Hub - Static Website
 
 This static site skeleton includes SEO-ready pages, AdSense placeholders, comparison tables and review templates. Replace `ca-pub-xxxxxxxxxxxxxxxx` with your AdSense Publisher ID and deploy to Firebase Hosting, Netlify, or Vercel.
 
@@ -6,22 +6,22 @@ This static site skeleton includes SEO-ready pages, AdSense placeholders, compar
 
 1. **Start XAMPP** and ensure Apache is running
 2. **Run the batch file**: Double-click `start-server.bat`
-3. **Or manually visit**: http://localhost/adwise-hub/
+3. **Or manually visit**: http://localhost/advise-hub/
 
 ### 📄 Available URLs:
-- **Server Info**: http://localhost/adwise-hub/server-info.php
-- **Main Site**: http://localhost/adwise-hub/
-- **Homepage**: http://localhost/adwise-hub/index.html
+- **Server Info**: http://localhost/advise-hub/server-info.php
+- **Main Site**: http://localhost/advise-hub/
+- **Homepage**: http://localhost/advise-hub/index.html
 
 ## 🌐 Steps to deploy
-1. Replace `localhost/adwise-hub` with your real domain in files and update images.
+1. Replace `localhost/advise-hub` with your real domain in files and update images.
 2. Replace AdSense client & ad-slot IDs (currently using placeholder: `ca-pub-1234567890123456`).
 3. Host on Netlify / Vercel / Firebase Hosting.
 4. Submit sitemap to Google Search Console and request indexing.
 
 ## 📁 Project Structure
 ```
-adwise-hub/
+advise-hub/
 ├── index.html              # Main homepage
 ├── server-info.php         # Local dev server info
 ├── start-server.bat        # Quick start script

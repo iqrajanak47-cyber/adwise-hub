@@ -1,15 +1,15 @@
-# Deploy AdWise Hub to Vercel
+# Deploy Advise Hub to Vercel
 
 ## Method 1: GitHub + Vercel (Recommended)
 
 ### Step 1: Create GitHub Repository
 ```bash
-cd c:\xampp\htdocs\adwise-hub
+cd c:\xampp\htdocs\advise-hub
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/yourusername/adwise-hub.git
+git remote add origin https://github.com/yourusername/advise-hub.git
 git push -u origin main
 ```
 
@@ -34,7 +34,7 @@ npm i -g vercel
 
 ### Step 2: Deploy
 ```bash
-cd c:\xampp\htdocs\adwise-hub
+cd c:\xampp\htdocs\advise-hub
 vercel login
 vercel --prod
 ```
@@ -49,10 +49,10 @@ vercel --prod
 ## Post-Deployment Steps
 
 ### 1. Update Domain References
-Replace `localhost/adwise-hub` with your Vercel URL:
+Replace `localhost/advise-hub` with your Vercel URL:
 ```bash
 # Find and replace in all files
-# From: http://localhost/adwise-hub/
+# From: http://localhost/advise-hub/
 # To: https://your-project.vercel.app/
 ```
 
@@ -66,7 +66,7 @@ Replace `localhost/adwise-hub` with your Vercel URL:
 2. Add any required variables
 
 ## Your Live URLs
-- **Vercel URL**: `https://adwise-hub.vercel.app`
+- **Vercel URL**: `https://advise-hub.vercel.app`
 - **Custom Domain**: `https://yourdomain.com` (if configured)
 
 ## Files Created for Deployment

@@ -12,12 +12,12 @@ echo Add these CNAME records in Cloudflare:
 echo.
 echo Type: CNAME
 echo Name: www
-echo Target: adwise-oylki82ud-iqrajans-projects.vercel.app
+echo Target: advise-oylki82ud-iqrajans-projects.vercel.app
 echo Proxy: ON (Orange Cloud)
 echo.
 echo Type: CNAME
 echo Name: @
-echo Target: adwise-oylki82ud-iqrajans-projects.vercel.app
+echo Target: advise-oylki82ud-iqrajans-projects.vercel.app
 echo Proxy: ON (Orange Cloud)
 echo.
 echo 🔒 STEP 3: SSL Settings

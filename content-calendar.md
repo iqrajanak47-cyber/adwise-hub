@@ -1,4 +1,4 @@
-# AdWise Hub - Content Calendar & Internal Linking Strategy
+# Advise Hub - Content Calendar & Internal Linking Strategy
 
 ## Monthly Content Themes
 

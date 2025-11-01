@@ -1,7 +1,7 @@
 {
-  "name": "adwise-hub",
+  "name": "advise-hub",
   "version": "1.0.0",
-  "description": "AdWise Hub - Smart Insights. Smarter Decisions.",
+  "description": "Advise Hub - Smart Insights. Smarter Decisions.",
   "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
@@ -9,6 +9,6 @@
     "start": "vercel dev"
   },
   "keywords": ["finance", "insurance", "loans", "calculator", "reviews"],
-  "author": "AdWise Hub",
+  "author": "Advise Hub",
   "license": "MIT"
 }

@@ -2,7 +2,7 @@
 echo 🌐 DNS Configuration Helper for moneyadvisehub.com
 echo.
 echo Current Status: DOMAIN NOT WORKING
-echo Working URL: https://adwise-oylki82ud-iqrajans-projects.vercel.app/
+echo Working URL: https://advise-oylki82ud-iqrajans-projects.vercel.app/
 echo.
 echo 🔧 DNS RECORDS NEEDED:
 echo.
