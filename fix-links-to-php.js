@@ -13,9 +13,9 @@ function fixFile(filePath) {
     changed = true;
   }
   
-  // Replace href="../index.php" with href="../index.php"
-  if (content.includes('href="../index.php"')) {
-    content = content.replace(/href="\.\.\/"/g, 'href="../index.php"');
+  // Replace href="index.php" with href="index.php"
+  if (content.includes('href="index.php"')) {
+    content = content.replace(/href="\.\.\/"/g, 'href="index.php"');
     changed = true;
   }
   

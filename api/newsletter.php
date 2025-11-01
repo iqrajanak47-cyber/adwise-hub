@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require_once '../database/config.php';
+require_once 'database/config.php';
 
 if ($_POST['email']) {
     $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);

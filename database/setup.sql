@@ -15,6 +15,7 @@ CREATE TABLE analytics (
     id INT AUTO_INCREMENT PRIMARY KEY,
     page_url VARCHAR(255),
     visitor_ip VARCHAR(45),
+    referrer VARCHAR(255),
     visit_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

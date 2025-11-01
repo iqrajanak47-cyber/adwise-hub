@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-require_once '../database/config.php';
+require_once 'database/config.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 
