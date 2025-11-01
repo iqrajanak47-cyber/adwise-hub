@@ -308,8 +308,8 @@ body{font-family:system-ui,sans-serif;color:var(--text);line-height:1.6}
       <div class="widget newsletter-widget">
         <h3>📧 Daily Briefing</h3>
         <p>Get essential financial news every morning at 7 AM</p>
-        <form id="newsletter-form" class="newsletter-form">
-          <input type="email" id="newsletter-email" placeholder="your.email@domain.com" required>
+        <form id="newsletter-form" class="newsletter-form" action="api/newsletter.php" method="POST">
+          <input type="email" name="email" id="newsletter-email" placeholder="your.email@domain.com" required>
           <button type="submit">SUBSCRIBE</button>
         </form>
         <small>Join 50,000+ readers</small>
@@ -506,5 +506,6 @@ body{font-family:system-ui,sans-serif;color:var(--text);line-height:1.6}
   <script src="assets/js/main.js" defer></script>
   <script src="assets/js/mobile.js" defer></script>
   <script src="assets/js/web-vitals.js" defer></script>
+  <script src="assets/js/database.js" defer></script>
 </body>
 </html>
