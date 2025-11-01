@@ -35,7 +35,7 @@
         <div class="links">
             <?php
             $pages = [
-                ['index.html', '🏠 Homepage', 'Main newspaper-style landing page'],
+                ['index.php', '🏠 Homepage', 'Main newspaper-style landing page'],
                 ['articles/insurance.html', '🛡️ Insurance', 'Insurance guides & comparisons'],
                 ['articles/loans.html', '💰 Loans', 'Personal & business loan info'],
                 ['articles/hosting.html', '🌐 Hosting', 'Web hosting reviews & guides'],

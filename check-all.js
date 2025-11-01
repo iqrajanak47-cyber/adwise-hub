@@ -8,7 +8,7 @@ console.log('🔍 COMPREHENSIVE WEBSITE CHECK\n');
 function checkFiles() {
     console.log('📁 FILE STRUCTURE CHECK:');
     const requiredFiles = [
-        'index.html',
+        'index.php',
         'posts.html', 
         'about.html',
         'contact.html',
@@ -48,7 +48,7 @@ function checkDirectories() {
 // Check HTML pages
 function checkPages() {
     console.log('📄 PAGE VALIDATION:');
-    const pages = ['index.html', 'posts.html', 'about.html', 'contact.html'];
+    const pages = ['index.php', 'posts.html', 'about.html', 'contact.html'];
     
     pages.forEach(page => {
         if (fs.existsSync(page)) {
@@ -149,9 +149,9 @@ function checkPerformance() {
         console.log(`${exists ? '✅' : '❌'} ${file}`);
     });
     
-    // Check if index.html has critical CSS inline
-    if (fs.existsSync('index.html')) {
-        const content = fs.readFileSync('index.html', 'utf8');
+    // Check if index.php has critical CSS inline
+    if (fs.existsSync('index.php')) {
+        const content = fs.readFileSync('index.php', 'utf8');
         const hasCriticalCSS = content.includes('Critical CSS inline');
         const hasServiceWorker = content.includes('serviceWorker');
         const hasLazyLoad = content.includes('lazy-load.js');

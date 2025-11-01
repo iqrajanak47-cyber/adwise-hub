@@ -2,7 +2,7 @@
 const CACHE_NAME = 'advise-hub-v1';
 const STATIC_CACHE = [
   '/',
-  '/index.html',
+  '/index.php',
   '/posts.html',
   '/assets/css/style.css',
   '/assets/js/main.js',

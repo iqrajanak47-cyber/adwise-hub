@@ -88,7 +88,7 @@ async function checkAllLinks() {
     
     // Files to check
     const filesToCheck = [
-        'index.html',
+        'index.php',
         'posts.html',
         'about.html',
         'contact.html',

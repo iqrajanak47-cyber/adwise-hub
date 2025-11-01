@@ -13,8 +13,8 @@ body{font-family:system-ui,sans-serif;color:var(--text);line-height:1.6}
 @media(max-width:768px){.hero h1{font-size:2rem}}
 `;
 
-// Optimize index.html
-let indexContent = fs.readFileSync('index.html', 'utf8');
+// Optimize index.php
+let indexContent = fs.readFileSync('index.php', 'utf8');
 
 // Add critical CSS inline and defer non-critical
 indexContent = indexContent.replace(
@@ -45,7 +45,7 @@ indexContent = indexContent.replace(
   '<img loading="lazy" src="'
 );
 
-fs.writeFileSync('index.html', indexContent);
+fs.writeFileSync('index.php', indexContent);
 
 // Create optimized CSS
 const optimizedCSS = fs.readFileSync('assets/css/style.css', 'utf8')

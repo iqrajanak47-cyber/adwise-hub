@@ -25,7 +25,7 @@ const linkFixes = {
 
 // Files to check and fix
 const filesToFix = [
-  'index.html',
+  'index.php',
   'posts.html', 
   'posts-enhanced.html',
   'about.html',

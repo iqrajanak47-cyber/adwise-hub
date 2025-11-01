@@ -52,9 +52,9 @@ $html = "<!doctype html>
 <body>
   <header class=\"site-header\">
     <div class=\"container header-inner\">
-      <a class=\"logo\" href=\"../index.html\">Money Advise Hub</a>
+      <a class=\"logo\" href=\"../index.php\">Money Advise Hub</a>
       <nav class=\"main-nav\">
-        <a href=\"../index.html\">Home</a>
+        <a href=\"../index.php\">Home</a>
         <a href=\"../about.html\">About</a>
         <a href=\"../contact.html\">Contact</a>
       </nav>
@@ -64,7 +64,7 @@ $html = "<!doctype html>
   <main class=\"container article-style\">
     <article>
       <div class=\"breadcrumb\">
-        <a href=\"../index.html\">Home</a> > <a href=\"../articles/\">Articles</a> > {$input['title']}
+        <a href=\"../index.php\">Home</a> > <a href=\"../articles/\">Articles</a> > {$input['title']}
       </div>
       
       <h1>{$input['title']}</h1>
