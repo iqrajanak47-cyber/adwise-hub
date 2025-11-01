@@ -1,7 +1,7 @@
 // Advise Hub - Enhanced Main JavaScript
 document.addEventListener('DOMContentLoaded', () => {
   // Update copyright year
-  document.querySelectorAll('[id^="year"]').forEach(el => 
+  document.querySelectorAll('[id^="year"]').forEach(el =>
     el.textContent = new Date().getFullYear()
   );
 
@@ -10,17 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     const email = e.target.querySelector('input[type="email"]')?.value.trim();
     const button = e.target.querySelector('button');
-    
+
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       showNotification('Please enter a valid email address.', 'error');
       return;
     }
-    
+
     // Show loading state
     const originalText = button.textContent;
     button.textContent = 'Subscribing...';
     button.disabled = true;
-    
+
     setTimeout(() => {
       trackEvent('newsletter_signup', 'engagement', email.split('@')[1]);
       showNotification('Thanks for subscribing! Check your email for confirmation.', 'success');
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
       button.disabled = false;
     }, 1500);
   };
-  
+
   document.querySelectorAll('[id*="newsletter"], .newsletter-form, .footer-newsletter')
     .forEach(form => form.addEventListener('submit', handleNewsletter));
 
@@ -78,10 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
       // Also track to console for debugging
-      console.log('Event tracked:', {action, category, label, value});
+
     } catch(e) { console.error('Analytics error:', e); }
   };
-  
+
   // Enhanced click tracking
   document.addEventListener('click', (e) => {
     if (e.target.matches('.btn, .btn-small')) {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       trackEvent('affiliate_click', 'monetization', e.target.href);
     }
   });
-  
+
   // Enhanced lazy loading for ads and images
   if ('IntersectionObserver' in window) {
     const adObserver = new IntersectionObserver((entries) => {
@@ -109,10 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, {rootMargin: '100px'});
-    
+
     document.querySelectorAll('.adsbygoogle:not([data-loaded])')
       .forEach(ad => adObserver.observe(ad));
-      
+
     // Lazy load images
     const imageObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -126,11 +126,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     });
-    
+
     document.querySelectorAll('img[data-src]')
       .forEach(img => imageObserver.observe(img));
   }
-  
+
   // Performance monitoring and optimization
   window.addEventListener('load', () => {
     // Track Core Web Vitals
@@ -139,19 +139,19 @@ document.addEventListener('DOMContentLoaded', () => {
       webVitals.getFID(metric => trackEvent('fid', 'performance', null, metric.value));
       webVitals.getLCP(metric => trackEvent('lcp', 'performance', null, metric.value));
     }
-    
+
     // Track page load time
     const perfData = performance.getEntriesByType?.('navigation')?.[0];
     if (perfData) {
       const loadTime = Math.round(perfData.loadEventEnd - perfData.fetchStart);
       trackEvent('page_load_time', 'performance', window.location.pathname, loadTime);
     }
-    
+
     // Register service worker for offline support
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js')
         .then(registration => {
-          console.log('SW registered:', registration.scope);
+
           trackEvent('sw_registered', 'technical');
         })
         .catch(error => {
@@ -160,23 +160,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
   });
-  
+
   // Error tracking
   window.addEventListener('error', (e) => {
     trackEvent('js_error', 'technical', e.message, e.lineno);
   });
-  
+
   // User engagement tracking
   let startTime = Date.now();
   let maxScroll = 0;
-  
+
   window.addEventListener('scroll', () => {
     const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
     if (scrollPercent > maxScroll) {
       maxScroll = scrollPercent;
     }
   });
-  
+
   window.addEventListener('beforeunload', () => {
     const timeOnPage = Math.round((Date.now() - startTime) / 1000);
     trackEvent('time_on_page', 'engagement', window.location.pathname, timeOnPage);

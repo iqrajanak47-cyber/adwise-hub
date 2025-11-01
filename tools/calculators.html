@@ -26,7 +26,7 @@
     </nav>
     <h1>Financial Calculators</h1>
     <p>Free tools to calculate EMI, mortgages, credit scores, insurance premiums, and energy costs.</p>
-    
+
     <div class="grid">
       <!-- 🏦 Loan EMI Calculator -->
       <div class="card">
@@ -39,7 +39,7 @@
           <div id="emi-result" class="result"></div>
         </form>
       </div>
-      
+
       <!-- 🏠 Mortgage Estimator -->
       <div class="card">
         <h2>🏠 Mortgage Estimator</h2>
@@ -52,14 +52,14 @@
           <div id="mortgage-result" class="result"></div>
         </form>
       </div>
-      
+
       <!-- 💳 Credit Utilization & Score -->
       <div class="card">
         <h2>💳 Credit Score Estimator</h2>
         <form>
           <label>Total Credit Limit ($): <input type="number" id="credit-limit" placeholder="10000"></label>
           <label>Current Balance ($): <input type="number" id="credit-balance" placeholder="2500"></label>
-          <label>Payment History: 
+          <label>Payment History:
             <select id="payment-history">
               <option value="excellent">Excellent (100%)</option>
               <option value="good">Good (95%+)</option>
@@ -71,14 +71,14 @@
           <div id="credit-result" class="result"></div>
         </form>
       </div>
-      
+
       <!-- 💊 Insurance Premium -->
       <div class="card">
         <h2>💊 Insurance Premium Estimator</h2>
         <form>
           <label>Age: <input type="number" id="ins-age" placeholder="35"></label>
           <label>Coverage Amount ($): <input type="number" id="ins-coverage" placeholder="500000"></label>
-          <label>Health Status: 
+          <label>Health Status:
             <select id="health-status">
               <option value="excellent">Excellent</option>
               <option value="good">Good</option>
@@ -86,7 +86,7 @@
               <option value="poor">Poor</option>
             </select>
           </label>
-          <label>Smoker: 
+          <label>Smoker:
             <select id="smoker">
               <option value="no">No</option>
               <option value="yes">Yes</option>
@@ -96,14 +96,14 @@
           <div id="insurance-result" class="result"></div>
         </form>
       </div>
-      
+
       <!-- ⚡ Energy Bill Calculator -->
       <div class="card">
         <h2>⚡ Energy Bill Estimator</h2>
         <form>
           <label>Home Size (sq ft): <input type="number" id="home-size" placeholder="2000"></label>
           <label>Rate per kWh ($): <input type="number" step="0.01" id="kwh-rate" placeholder="0.12"></label>
-          <label>Usage Level: 
+          <label>Usage Level:
             <select id="usage-level">
               <option value="low">Low (AC minimal)</option>
               <option value="average">Average</option>
@@ -114,7 +114,7 @@
           <div id="energy-result" class="result"></div>
         </form>
       </div>
-      
+
       <!-- Comparison Tool -->
       <div class="card">
         <h2>📊 Rate Comparison Tool</h2>
@@ -128,11 +128,11 @@
         </form>
       </div>
     </div>
-    
+
     <div class="ad-section">
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6914004429115810" data-ad-slot="3333333333" data-ad-format="auto" data-loaded="false"></ins>
     </div>
-    
+
     <section class="cta-box">
       <h3>Find the Best Rates</h3>
       <p>Use your calculations to find top-rated providers.</p>
@@ -151,121 +151,121 @@
       const P = parseFloat(document.getElementById('emi-amount').value);
       const r = parseFloat(document.getElementById('emi-rate').value) / 100 / 12;
       const n = parseFloat(document.getElementById('emi-tenure').value) * 12;
-      
+
       if (P && r && n) {
         const emi = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
         const total = emi * n;
         const interest = total - P;
-        document.getElementById('emi-result').innerHTML = 
+        document.getElementById('emi-result').innerHTML =
           `<strong>Monthly EMI: $${emi.toFixed(2)}</strong><br>Total Interest: $${interest.toFixed(0)}<br>Total Amount: $${total.toFixed(0)}`;
       }
     }
-    
+
     function calcMortgage() {
       const price = parseFloat(document.getElementById('home-price').value);
       const down = parseFloat(document.getElementById('down-payment').value);
       const rate = parseFloat(document.getElementById('mortgage-rate').value) / 100 / 12;
       const term = parseFloat(document.getElementById('mortgage-term').value) * 12;
       const principal = price - down;
-      
+
       if (principal && rate && term) {
         const payment = (principal * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
-        document.getElementById('mortgage-result').innerHTML = 
+        document.getElementById('mortgage-result').innerHTML =
           `<strong>Monthly Payment: $${payment.toFixed(2)}</strong><br>Loan Amount: $${principal.toLocaleString()}<br>Down Payment: ${((down/price)*100).toFixed(1)}%`;
       }
     }
-    
+
     function calcCredit() {
       const limit = parseFloat(document.getElementById('credit-limit').value);
       const balance = parseFloat(document.getElementById('credit-balance').value);
       const history = document.getElementById('payment-history').value;
-      
+
       if (limit && balance >= 0) {
         const utilization = (balance / limit) * 100;
         let baseScore = 650;
-        
+
         // Utilization impact
         if (utilization < 10) baseScore += 100;
         else if (utilization < 30) baseScore += 50;
         else if (utilization < 50) baseScore -= 50;
         else baseScore -= 100;
-        
+
         // Payment history impact
         if (history === 'excellent') baseScore += 50;
         else if (history === 'good') baseScore += 20;
         else if (history === 'fair') baseScore -= 30;
         else baseScore -= 80;
-        
+
         baseScore = Math.max(300, Math.min(850, baseScore));
-        
-        document.getElementById('credit-result').innerHTML = 
+
+        document.getElementById('credit-result').innerHTML =
           `<strong>Estimated Score: ${baseScore}</strong><br>Utilization: ${utilization.toFixed(1)}%<br>Recommendation: ${utilization > 30 ? 'Reduce balance' : 'Good utilization'}`;
       }
     }
-    
+
     function calcInsurance() {
       const age = parseFloat(document.getElementById('ins-age').value);
       const coverage = parseFloat(document.getElementById('ins-coverage').value);
       const health = document.getElementById('health-status').value;
       const smoker = document.getElementById('smoker').value;
-      
+
       if (age && coverage) {
         let rate = 0.5; // Base rate per $1000
-        
+
         // Age factor
         if (age < 30) rate *= 0.8;
         else if (age > 50) rate *= 1.5;
         else if (age > 60) rate *= 2.5;
-        
+
         // Health factor
         if (health === 'excellent') rate *= 0.9;
         else if (health === 'average') rate *= 1.2;
         else if (health === 'poor') rate *= 1.8;
-        
+
         // Smoking factor
         if (smoker === 'yes') rate *= 2.0;
-        
+
         const monthlyPremium = (coverage / 1000) * rate;
         const annualPremium = monthlyPremium * 12;
-        
-        document.getElementById('insurance-result').innerHTML = 
+
+        document.getElementById('insurance-result').innerHTML =
           `<strong>Monthly Premium: $${monthlyPremium.toFixed(2)}</strong><br>Annual Premium: $${annualPremium.toFixed(2)}<br>Coverage: $${coverage.toLocaleString()}`;
       }
     }
-    
+
     function calcEnergy() {
       const size = parseFloat(document.getElementById('home-size').value);
       const rate = parseFloat(document.getElementById('kwh-rate').value);
       const usage = document.getElementById('usage-level').value;
-      
+
       if (size && rate) {
         let kwhPerSqFt = 0.8; // Base usage
-        
+
         if (usage === 'low') kwhPerSqFt = 0.6;
         else if (usage === 'high') kwhPerSqFt = 1.2;
-        
+
         const monthlyKwh = size * kwhPerSqFt;
         const monthlyBill = monthlyKwh * rate;
         const annualBill = monthlyBill * 12;
-        
-        document.getElementById('energy-result').innerHTML = 
+
+        document.getElementById('energy-result').innerHTML =
           `<strong>Monthly Bill: $${monthlyBill.toFixed(2)}</strong><br>Annual Cost: $${annualBill.toFixed(2)}<br>Usage: ${monthlyKwh.toFixed(0)} kWh/month`;
       }
     }
-    
+
     function compareRates() {
       const amount = parseFloat(document.getElementById('comp-amount').value);
       const rateA = parseFloat(document.getElementById('rate-a').value) / 100 / 12;
       const rateB = parseFloat(document.getElementById('rate-b').value) / 100 / 12;
       const term = parseFloat(document.getElementById('comp-term').value) * 12;
-      
+
       if (amount && rateA && rateB && term) {
         const emiA = (amount * rateA * Math.pow(1 + rateA, term)) / (Math.pow(1 + rateA, term) - 1);
         const emiB = (amount * rateB * Math.pow(1 + rateB, term)) / (Math.pow(1 + rateB, term) - 1);
         const savings = Math.abs(emiA - emiB) * term;
         const better = emiA < emiB ? 'Bank A' : 'Bank B';
-        
-        document.getElementById('compare-result').innerHTML = 
+
+        document.getElementById('compare-result').innerHTML =
           `<strong>Bank A EMI: $${emiA.toFixed(2)}</strong><br><strong>Bank B EMI: $${emiB.toFixed(2)}</strong><br>Better Option: ${better}<br>Total Savings: $${savings.toFixed(2)}`;
       }
     }

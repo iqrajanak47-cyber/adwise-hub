@@ -4,22 +4,20 @@ const path = require('path');
 // Check which files exist and which don't
 const checkFiles = [
   'about.html',
-  'contact.html', 
+  'contact.html',
   'privacy.html',
   'terms.html',
   'disclaimer.html',
   'manifest.json'
 ];
 
-console.log('🔍 Checking for missing files...');
-
 const missingFiles = [];
 checkFiles.forEach(file => {
   if (!fs.existsSync(path.join(__dirname, file))) {
     missingFiles.push(file);
-    console.log(`❌ Missing: ${file}`);
+
   } else {
-    console.log(`✅ Exists: ${file}`);
+
   }
 });
 
@@ -42,7 +40,6 @@ if (missingFiles.includes('manifest.json')) {
     ]
   };
   fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2));
-  console.log('✅ Created manifest.json');
+
 }
 
-console.log('🎉 Link fixing complete!');

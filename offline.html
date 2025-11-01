@@ -61,19 +61,19 @@
       <a href="/" style="color: #667eea; text-decoration: none;">← Back to Homepage</a>
     </div>
   </div>
-  
+
   <script>
     // Auto-retry when online
     window.addEventListener('online', () => {
       window.location.reload();
     });
-    
+
     // Show connection status
     const updateStatus = () => {
       const status = navigator.onLine ? 'online' : 'offline';
-      console.log('Connection status:', status);
+
     };
-    
+
     window.addEventListener('online', updateStatus);
     window.addEventListener('offline', updateStatus);
   </script>

@@ -17,13 +17,13 @@
 </head>
 <body>
     <h1>🤖 AI Content Generator Test</h1>
-    
+
     <form id="contentForm">
         <div class="form-group">
             <label>Title:</label>
             <input type="text" id="title" value="Best Credit Cards for Americans in 2025" required>
         </div>
-        
+
         <div class="form-group">
             <label>Category:</label>
             <select id="category">
@@ -34,7 +34,7 @@
                 <option>Investing</option>
             </select>
         </div>
-        
+
         <div class="form-group">
             <label>Content (HTML):</label>
             <textarea id="content" placeholder="<h2>Introduction</h2><p>Content here...</p>"><h2>Top Credit Cards for 2025</h2>
@@ -54,31 +54,31 @@
 <p>Compare these credit cards and choose the best one for your financial needs.</p>
 </div></textarea>
         </div>
-        
+
         <div class="form-group">
             <label>Source:</label>
             <input type="text" id="source" value="Financial Research Team" required>
         </div>
-        
+
         <button type="submit">📝 Generate Article</button>
     </form>
-    
+
     <div id="result"></div>
 
     <script>
         document.getElementById('contentForm').addEventListener('submit', async (e) => {
             e.preventDefault();
-            
+
             const resultDiv = document.getElementById('result');
             resultDiv.innerHTML = '<p>⏳ Generating article...</p>';
-            
+
             const data = {
                 title: document.getElementById('title').value,
                 content: document.getElementById('content').value,
                 category: document.getElementById('category').value,
                 source: document.getElementById('source').value
             };
-            
+
             try {
                 const response = await fetch('https://moneyadvisehub.com/api/upload-content.php', {
                     method: 'POST',
@@ -88,9 +88,9 @@
                     },
                     body: JSON.stringify(data)
                 });
-                
+
                 const result = await response.json();
-                
+
                 if (result.success) {
                     resultDiv.innerHTML = `
                         <div class="result success">

@@ -66,26 +66,26 @@ $html = "<!doctype html>
       <div class=\"breadcrumb\">
         <a href=\"../index.php\">Home</a> > <a href=\"../articles/\">Articles</a> > {$input['title']}
       </div>
-      
+
       <h1>{$input['title']}</h1>
-      
+
       <div class=\"article-meta\">
         <span class=\"byline\">Financial Editor</span>
         <span class=\"date\">" . date('F j, Y') . "</span>
         <span class=\"category\">{$input['category']}</span>
         <span class=\"source\">Source: {$input['source']}</span>
       </div>
-      
+
       <div class=\"article-content\">
         {$input['content']}
       </div>
-      
+
       <div class=\"affiliate-disclosure\">
         <p><strong>Disclosure:</strong> This article may contain affiliate links. We may earn a commission from qualifying purchases.</p>
       </div>
     </article>
   </main>
-  
+
   <script src=\"../assets/js/main.js\"></script>
 </body>
 </html>";

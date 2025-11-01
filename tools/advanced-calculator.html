@@ -27,16 +27,16 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a> > <a href="calculators.html">Calculators</a> > Advanced Calculator
       </div>
-      
+
       <h1>🧮 Advanced Financial Calculator</h1>
       <p class="tagline">All-in-one calculator for loans, investments, insurance, and retirement planning</p>
-      
+
       <div class="calculator-container">
         <div class="calc-header">
           <h2>Multi-Purpose Financial Calculator</h2>
           <p>Choose your calculation type and get instant results with detailed breakdowns</p>
         </div>
-        
+
         <div class="calc-field">
           <label for="calcType">Calculation Type</label>
           <select id="calcType" onchange="switchCalculator()">
@@ -48,7 +48,7 @@
             <option value="savings">Savings Goal Calculator</option>
           </select>
         </div>
-        
+
         <div class="calc-grid">
           <div class="calc-inputs">
             <!-- Loan Calculator -->
@@ -66,7 +66,7 @@
                 <input type="number" id="loanTerm" value="30" min="1" max="50">
               </div>
             </div>
-            
+
             <!-- Investment Calculator -->
             <div id="investmentInputs" class="calc-section" style="display:none">
               <div class="calc-field">
@@ -86,7 +86,7 @@
                 <input type="number" id="investmentYears" value="20" min="1" max="50">
               </div>
             </div>
-            
+
             <!-- Insurance Calculator -->
             <div id="insuranceInputs" class="calc-section" style="display:none">
               <div class="calc-field">
@@ -107,7 +107,7 @@
                 </select>
               </div>
             </div>
-            
+
             <!-- Retirement Calculator -->
             <div id="retirementInputs" class="calc-section" style="display:none">
               <div class="calc-field">
@@ -131,36 +131,36 @@
                 <input type="number" id="retirementReturn" value="7" min="0" max="15" step="0.1">
               </div>
             </div>
-            
+
             <button class="calc-btn" onclick="calculate()">Calculate Now</button>
           </div>
-          
+
           <div class="calc-results" id="results">
             <div class="result-item">
               <div class="result-label">Monthly Payment</div>
               <div class="result-value" id="monthlyPayment">$1,580</div>
               <div class="result-secondary">Principal & Interest</div>
             </div>
-            
+
             <div class="result-item">
               <div class="result-label">Total Interest</div>
               <div class="result-value" id="totalInterest">$318,861</div>
               <div class="result-secondary">Over loan term</div>
             </div>
-            
+
             <div class="result-highlight">
               <div class="result-label">Total Amount</div>
               <div class="result-value" id="totalAmount">$568,861</div>
             </div>
           </div>
         </div>
-        
+
         <div id="detailedResults" class="detailed-results" style="margin-top: 30px;">
           <h3>📊 Detailed Breakdown</h3>
           <div id="breakdown"></div>
         </div>
       </div>
-      
+
       <div class="key-takeaway">
         <h3>💡 Calculator Features</h3>
         <ul>
@@ -171,7 +171,7 @@
           <li><strong>Free:</strong> No registration or fees required</li>
         </ul>
       </div>
-      
+
       <h2>🎯 How to Use This Calculator</h2>
       <ol>
         <li><strong>Select Calculator Type:</strong> Choose from loan, investment, insurance, retirement, mortgage, or savings calculators</li>
@@ -179,7 +179,7 @@
         <li><strong>Get Instant Results:</strong> View calculations and detailed breakdowns immediately</li>
         <li><strong>Compare Scenarios:</strong> Adjust values to see how changes affect your results</li>
       </ol>
-      
+
       <div class="cta-box">
         <h3>Need Professional Financial Advice?</h3>
         <p>While our calculator provides accurate estimates, consider consulting with a financial advisor for personalized guidance.</p>
@@ -187,7 +187,7 @@
         <a href="../articles/insurance.html" class="btn-small">Insurance Guides</a>
       </div>
     </article>
-    
+
     <aside class="sidebar">
       <div class="widget">
         <h3>🧮 Quick Calculators</h3>
@@ -208,7 +208,7 @@
           </a>
         </div>
       </div>
-      
+
       <div class="widget">
         <h3>📚 Related Articles</h3>
         <ul>
@@ -219,26 +219,26 @@
       </div>
     </aside>
   </main>
-  
+
   <script>
     let currentCalcType = 'loan';
-    
+
     function switchCalculator() {
       const calcType = document.getElementById('calcType').value;
       currentCalcType = calcType;
-      
+
       // Hide all input sections
       document.querySelectorAll('.calc-section').forEach(section => {
         section.style.display = 'none';
       });
-      
+
       // Show selected section
       document.getElementById(calcType + 'Inputs').style.display = 'block';
-      
+
       // Calculate immediately
       calculate();
     }
-    
+
     function calculate() {
       switch(currentCalcType) {
         case 'loan':
@@ -261,20 +261,20 @@
           break;
       }
     }
-    
+
     function calculateLoan() {
       const amount = parseFloat(document.getElementById('loanAmount').value);
       const rate = parseFloat(document.getElementById('loanRate').value) / 100 / 12;
       const term = parseFloat(document.getElementById('loanTerm').value) * 12;
-      
+
       const monthlyPayment = (amount * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
       const totalAmount = monthlyPayment * term;
       const totalInterest = totalAmount - amount;
-      
+
       document.getElementById('monthlyPayment').textContent = '$' + monthlyPayment.toFixed(2);
       document.getElementById('totalInterest').textContent = '$' + totalInterest.toFixed(0);
       document.getElementById('totalAmount').textContent = '$' + totalAmount.toFixed(0);
-      
+
       // Detailed breakdown
       const breakdown = document.getElementById('breakdown');
       breakdown.innerHTML = `
@@ -294,28 +294,28 @@
         </div>
       `;
     }
-    
+
     function calculateInvestment() {
       const initial = parseFloat(document.getElementById('initialInvestment').value);
       const monthly = parseFloat(document.getElementById('monthlyContribution').value);
       const rate = parseFloat(document.getElementById('investmentRate').value) / 100 / 12;
       const years = parseFloat(document.getElementById('investmentYears').value);
       const months = years * 12;
-      
+
       // Future value of initial investment
       const futureInitial = initial * Math.pow(1 + rate, months);
-      
+
       // Future value of monthly contributions
       const futureMonthly = monthly * (Math.pow(1 + rate, months) - 1) / rate;
-      
+
       const totalValue = futureInitial + futureMonthly;
       const totalContributions = initial + (monthly * months);
       const totalGains = totalValue - totalContributions;
-      
+
       document.getElementById('monthlyPayment').textContent = '$' + monthly.toFixed(0);
       document.getElementById('totalInterest').textContent = '$' + totalGains.toFixed(0);
       document.getElementById('totalAmount').textContent = '$' + totalValue.toFixed(0);
-      
+
       // Update labels
       document.querySelector('#results .result-item:first-child .result-label').textContent = 'Monthly Contribution';
       document.querySelector('#results .result-item:first-child .result-secondary').textContent = 'Investment amount';
@@ -323,12 +323,12 @@
       document.querySelector('#results .result-item:nth-child(2) .result-secondary').textContent = 'Investment growth';
       document.querySelector('#results .result-highlight .result-label').textContent = 'Final Value';
     }
-    
+
     function calculateInsurance() {
       const age = parseFloat(document.getElementById('age').value);
       const coverage = parseFloat(document.getElementById('coverage').value);
       const type = document.getElementById('insuranceType').value;
-      
+
       let basePremium;
       switch(type) {
         case 'term':
@@ -344,62 +344,62 @@
           basePremium = 400 * (age / 35) * 12;
           break;
       }
-      
+
       const monthlyPremium = basePremium / 12;
       const annualPremium = basePremium;
       const lifetimePremium = basePremium * 20; // Estimate 20 years
-      
+
       document.getElementById('monthlyPayment').textContent = '$' + monthlyPremium.toFixed(0);
       document.getElementById('totalInterest').textContent = '$' + annualPremium.toFixed(0);
       document.getElementById('totalAmount').textContent = '$' + lifetimePremium.toFixed(0);
-      
+
       // Update labels
       document.querySelector('#results .result-item:first-child .result-label').textContent = 'Monthly Premium';
       document.querySelector('#results .result-item:nth-child(2) .result-label').textContent = 'Annual Premium';
       document.querySelector('#results .result-highlight .result-label').textContent = '20-Year Total';
     }
-    
+
     function calculateRetirement() {
       const currentAge = parseFloat(document.getElementById('currentAge').value);
       const retirementAge = parseFloat(document.getElementById('retirementAge').value);
       const currentSavings = parseFloat(document.getElementById('currentSavings').value);
       const monthlyContrib = parseFloat(document.getElementById('monthlyRetirement').value);
       const returnRate = parseFloat(document.getElementById('retirementReturn').value) / 100 / 12;
-      
+
       const yearsToRetirement = retirementAge - currentAge;
       const monthsToRetirement = yearsToRetirement * 12;
-      
+
       // Future value of current savings
       const futureCurrentSavings = currentSavings * Math.pow(1 + returnRate, monthsToRetirement);
-      
+
       // Future value of monthly contributions
       const futureContributions = monthlyContrib * (Math.pow(1 + returnRate, monthsToRetirement) - 1) / returnRate;
-      
+
       const totalRetirementFund = futureCurrentSavings + futureContributions;
       const totalContributions = currentSavings + (monthlyContrib * monthsToRetirement);
       const totalGrowth = totalRetirementFund - totalContributions;
-      
+
       document.getElementById('monthlyPayment').textContent = '$' + monthlyContrib.toFixed(0);
       document.getElementById('totalInterest').textContent = '$' + totalGrowth.toFixed(0);
       document.getElementById('totalAmount').textContent = '$' + totalRetirementFund.toFixed(0);
-      
+
       // Update labels
       document.querySelector('#results .result-item:first-child .result-label').textContent = 'Monthly Savings';
       document.querySelector('#results .result-item:nth-child(2) .result-label').textContent = 'Investment Growth';
       document.querySelector('#results .result-highlight .result-label').textContent = 'Retirement Fund';
     }
-    
+
     // Auto-calculate on input change
     document.addEventListener('input', (e) => {
       if (e.target.matches('input[type="number"]')) {
         calculate();
       }
     });
-    
+
     // Initial calculation
     calculate();
   </script>
-  
+
   <script src="assets/js/main.js"></script>
   <script src="assets/js/mobile.js"></script>
   <script src="assets/js/chat.js"></script>

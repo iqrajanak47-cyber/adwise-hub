@@ -4,9 +4,9 @@ let chatOpen = false;
 function toggleChat() {
   const chatBox = document.getElementById('chatBox');
   const chatWidget = document.getElementById('chat-widget');
-  
+
   chatOpen = !chatOpen;
-  
+
   if (chatOpen) {
     chatBox.style.display = 'block';
     chatWidget.classList.add('active');
@@ -19,14 +19,14 @@ function toggleChat() {
 function sendMessage() {
   const input = document.getElementById('chatInput');
   const messages = document.querySelector('.chat-messages');
-  
+
   if (input.value.trim()) {
     // Add user message
     const userMsg = document.createElement('div');
     userMsg.className = 'message user';
     userMsg.textContent = input.value;
     messages.appendChild(userMsg);
-    
+
     // Auto-reply
     setTimeout(() => {
       const botMsg = document.createElement('div');
@@ -35,7 +35,7 @@ function sendMessage() {
       messages.appendChild(botMsg);
       messages.scrollTop = messages.scrollHeight;
     }, 1000);
-    
+
     input.value = '';
     messages.scrollTop = messages.scrollHeight;
   }

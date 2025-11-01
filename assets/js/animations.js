@@ -16,7 +16,7 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
   const elements = document.querySelectorAll('.card, .widget, .calculator-container');
   elements.forEach(el => observer.observe(el));
-  
+
   // Add stagger effect to cards
   const cards = document.querySelectorAll('.card');
   cards.forEach((card, index) => {

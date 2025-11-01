@@ -3,7 +3,7 @@ require_once 'includes/db-content.php';
 trackVisit($_SERVER['REQUEST_URI']);
 $articles = getArticles(5);
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -12,10 +12,10 @@ $articles = getArticles(5);
   <meta name="description" content="Money Advise Hub: expert USA financial advice, American insurance reviews, US loan comparisons, and money management guides for US residents." />
   <link rel="canonical" href="https://moneyadvisehub.com/" />
   <link rel="stylesheet" href="assets/css/style.css">
-  
+
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914004429115810" crossorigin="anonymous"></script>
-  
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XW1ZYER79Q"></script>
   <script>
@@ -58,7 +58,7 @@ $articles = getArticles(5);
       </article>
       <?php endforeach; ?>
     </section>
-    
+
     <aside class="sidebar">
       <div class="widget newsletter-widget">
         <h3>📧 Daily Briefing</h3>

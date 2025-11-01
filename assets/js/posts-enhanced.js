@@ -19,17 +19,17 @@ const generatePosts = (count = 100) => {
         "Medicare Supplement Plans", "Business Credit Cards", "Rental Property Investing",
         "Financial Planning Software", "Identity Theft Protection", "Payday Loan Alternatives"
     ];
-    
+
     const categories = ["Finance", "Investing", "Insurance", "Banking", "Real Estate", "Business", "Taxes", "Retirement"];
     const colors = ["2c5aa0", "28a745", "dc3545", "17a2b8", "6f42c1", "fd7e14", "20c997", "e83e8c"];
-    
+
     const posts = [];
     for (let i = 1; i <= count; i++) {
         const topic = topics[Math.floor(Math.random() * topics.length)];
         const category = categories[Math.floor(Math.random() * categories.length)];
         const color = colors[Math.floor(Math.random() * colors.length)];
         const year = Math.random() > 0.7 ? " 2025" : "";
-        
+
         posts.push({
             id: i,
             title: `${topic}${year}`,
@@ -98,62 +98,62 @@ function formatDate(dateString) {
     const now = new Date();
     const diffTime = Math.abs(now - date);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    
+
     if (diffDays === 1) return 'Today';
     if (diffDays === 2) return 'Yesterday';
     if (diffDays <= 7) return `${diffDays} days ago`;
-    
-    return date.toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'short', 
-        day: 'numeric' 
+
+    return date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
     });
 }
 
 // Load posts with filtering
 function loadPosts(page = 1, reset = false) {
     if (isLoading) return;
-    
+
     isLoading = true;
     const spinner = document.getElementById('loadingSpinner');
     const loadMoreBtn = document.getElementById('loadMoreContainer');
-    
+
     spinner.style.display = 'block';
     loadMoreBtn.style.display = 'none';
-    
+
     setTimeout(() => {
         const postsPerPage = 15;
         const startIndex = (page - 1) * postsPerPage;
-        
+
         // Filter posts
-        let filteredPosts = currentFilter === 'all' 
-            ? allPosts 
+        let filteredPosts = currentFilter === 'all'
+            ? allPosts
             : allPosts.filter(post => post.category === currentFilter);
-        
+
         const posts = filteredPosts.slice(startIndex, startIndex + postsPerPage);
         const postsGrid = document.getElementById('postsGrid');
-        
+
         if (reset) {
             postsGrid.innerHTML = '';
         }
-        
+
         posts.forEach(post => {
             const postElement = document.createElement('div');
             postElement.innerHTML = createPostCard(post);
             postsGrid.appendChild(postElement.firstElementChild);
         });
-        
+
         // Check if we have more posts
         hasMorePosts = (startIndex + postsPerPage) < filteredPosts.length;
-        
+
         spinner.style.display = 'none';
         if (hasMorePosts) {
             loadMoreBtn.style.display = 'block';
         }
-        
+
         isLoading = false;
         animateNewPosts();
-        
+
     }, 500);
 }
 
@@ -162,13 +162,13 @@ function filterByCategory(category) {
     currentFilter = category;
     currentPage = 1;
     hasMorePosts = true;
-    
+
     // Update active tab
     document.querySelectorAll('.filter-tab').forEach(tab => {
         tab.classList.remove('active');
     });
     event.target.classList.add('active');
-    
+
     loadPosts(1, true);
 }
 
@@ -184,12 +184,12 @@ function setupSearch() {
 function searchPosts() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const posts = document.querySelectorAll('.post-card');
-    
+
     posts.forEach(post => {
         const title = post.querySelector('h2').textContent.toLowerCase();
         const excerpt = post.querySelector('.post-excerpt').textContent.toLowerCase();
         const category = post.dataset.category.toLowerCase();
-        
+
         if (title.includes(searchTerm) || excerpt.includes(searchTerm) || category.includes(searchTerm)) {
             post.style.display = 'block';
             post.style.opacity = '1';
@@ -207,7 +207,7 @@ function likePost(postId) {
         // Update UI
         const postCard = document.querySelector(`[data-category] .post-stats span:last-child`);
         // In a real app, you'd update the specific post
-        console.log(`Liked post: ${post.title}`);
+
     }
 }
 
@@ -229,7 +229,7 @@ function bookmarkPost(postId) {
     if (!bookmarks.includes(postId)) {
         bookmarks.push(postId);
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
-        console.log('Post bookmarked!');
+
     }
 }
 
@@ -255,11 +255,11 @@ function animateNewPosts() {
 function setupInfiniteScroll() {
     window.addEventListener('scroll', () => {
         if (isLoading || !hasMorePosts) return;
-        
+
         const scrollTop = window.pageYOffset;
         const windowHeight = window.innerHeight;
         const docHeight = document.documentElement.scrollHeight;
-        
+
         if (scrollTop + windowHeight >= docHeight - 1000) {
             loadMorePosts();
         }

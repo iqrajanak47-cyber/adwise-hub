@@ -166,16 +166,16 @@ function generateMorePosts(startId, count) {
         "Medicare Supplement Plans", "Business Credit Cards", "Rental Property Investing",
         "Financial Planning Software", "Identity Theft Protection", "Payday Loan Alternatives"
     ];
-    
+
     const categories = ["Finance", "Investing", "Insurance", "Banking", "Real Estate", "Business"];
     const colors = ["2c5aa0", "28a745", "dc3545", "17a2b8", "6f42c1", "fd7e14", "20c997"];
-    
+
     const posts = [];
     for (let i = 0; i < count; i++) {
         const topic = topics[Math.floor(Math.random() * topics.length)];
         const category = categories[Math.floor(Math.random() * categories.length)];
         const color = colors[Math.floor(Math.random() * colors.length)];
-        
+
         posts.push({
             id: startId + i,
             title: topic,
@@ -213,57 +213,57 @@ function createPostCard(post) {
 // Format date
 function formatDate(dateString) {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'short', 
-        day: 'numeric' 
+    return date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
     });
 }
 
 // Load posts for current page
 function loadPosts(page = 1) {
     if (isLoading) return;
-    
+
     isLoading = true;
     const spinner = document.getElementById('loadingSpinner');
     const loadMoreBtn = document.getElementById('loadMoreContainer');
-    
+
     spinner.style.display = 'block';
     loadMoreBtn.style.display = 'none';
-    
+
     // Simulate API delay
     setTimeout(() => {
         const postsPerPage = 15;
         const startIndex = (page - 1) * postsPerPage;
-        
+
         let posts;
         if (page === 1) {
             posts = samplePosts;
         } else {
             posts = generateMorePosts(startIndex + 1, postsPerPage);
         }
-        
+
         const postsGrid = document.getElementById('postsGrid');
-        
+
         posts.forEach(post => {
             const postElement = document.createElement('div');
             postElement.innerHTML = createPostCard(post);
             postsGrid.appendChild(postElement.firstElementChild);
         });
-        
+
         // Check if we have more posts (simulate max 100 posts)
         hasMorePosts = (page * postsPerPage) < 100;
-        
+
         spinner.style.display = 'none';
         if (hasMorePosts) {
             loadMoreBtn.style.display = 'block';
         }
-        
+
         isLoading = false;
-        
+
         // Add scroll animations
         animateNewPosts();
-        
+
     }, 800);
 }
 
@@ -289,11 +289,11 @@ function animateNewPosts() {
 function setupInfiniteScroll() {
     window.addEventListener('scroll', () => {
         if (isLoading || !hasMorePosts) return;
-        
+
         const scrollTop = window.pageYOffset;
         const windowHeight = window.innerHeight;
         const docHeight = document.documentElement.scrollHeight;
-        
+
         if (scrollTop + windowHeight >= docHeight - 1000) {
             loadMorePosts();
         }
@@ -331,11 +331,11 @@ function debounce(func, wait) {
 function filterPosts() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const posts = document.querySelectorAll('.post-card');
-    
+
     posts.forEach(post => {
         const title = post.querySelector('h2').textContent.toLowerCase();
         const excerpt = post.querySelector('.post-excerpt').textContent.toLowerCase();
-        
+
         if (title.includes(searchTerm) || excerpt.includes(searchTerm)) {
             post.style.display = 'block';
         } else {

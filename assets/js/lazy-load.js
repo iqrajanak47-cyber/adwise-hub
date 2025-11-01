@@ -28,7 +28,7 @@ const lazyLoad = {
             'assets/js/chat.js',
             'assets/js/affiliate-links.js'
         ];
-        
+
         setTimeout(() => {
             scripts.forEach(src => {
                 const script = document.createElement('script');
@@ -45,7 +45,7 @@ const lazyLoad = {
             { href: 'assets/css/style.css', as: 'style' },
             { href: 'assets/js/main.js', as: 'script' }
         ];
-        
+
         critical.forEach(resource => {
             const link = document.createElement('link');
             link.rel = 'preload';

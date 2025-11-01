@@ -19,22 +19,22 @@
 
   <main class="container">
     <h1>💰 EMI Calculator</h1>
-    
+
     <div class="calculator-container" style="background:#fff;padding:30px;border:1px solid #dee2e6;margin:20px 0">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">
         <div>
           <label>Principal Amount ($)</label>
           <input type="number" id="principal" value="50000" min="1000">
-          
+
           <label>Annual Interest Rate (%)</label>
           <input type="number" id="rate" value="12" step="0.1" min="0.1">
-          
+
           <label>Tenure (Months)</label>
           <input type="number" id="tenure" value="36" min="1">
-          
+
           <button onclick="calculateEMI()" style="margin-top:20px;width:100%">Calculate EMI</button>
         </div>
-        
+
         <div id="emiResults" style="background:#f8f9fa;padding:20px;border-radius:8px">
           <h3>Monthly EMI: <span id="emiAmount">$1,662</span></h3>
           <p>Total Interest: <span id="emiInterest">$9,832</span></p>
@@ -55,15 +55,15 @@
         const P = parseFloat(document.getElementById('principal').value);
         const r = parseFloat(document.getElementById('rate').value) / 100 / 12;
         const n = parseInt(document.getElementById('tenure').value);
-        
+
         if (isNaN(P) || P <= 0 || isNaN(r) || r < 0 || isNaN(n) || n <= 0) {
           throw new Error('Invalid input values');
         }
-        
+
         const emi = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
         const total = emi * n;
         const interest = total - P;
-        
+
         document.getElementById('emiAmount').textContent = '$' + emi.toFixed(2);
         document.getElementById('emiInterest').textContent = '$' + interest.toFixed(2);
         document.getElementById('emiTotal').textContent = '$' + total.toFixed(2);

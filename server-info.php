@@ -23,10 +23,10 @@
 <body>
     <div class="container">
         <h1>📰 Advise Hub - Development Server</h1>
-        
+
         <div class="info">
-            <p><strong>Status:</strong> <span class="status">✅ Running</span> | 
-            <strong>Time:</strong> <?= date('M j, Y - H:i:s') ?> | 
+            <p><strong>Status:</strong> <span class="status">✅ Running</span> |
+            <strong>Time:</strong> <?= date('M j, Y - H:i:s') ?> |
             <strong>PHP:</strong> <?= phpversion() ?></p>
             <p><strong>URL:</strong> <code>https://moneyadvisehub.com/</code></p>
         </div>
@@ -45,7 +45,7 @@
                 ['tools/emi-calculator.html', '💰 EMI Calculator', 'Loan EMI calculator'],
                 ['sitemap.html', '🗺️ All Pages', 'Complete site map']
             ];
-            
+
             foreach($pages as [$url, $title, $desc]) {
                 echo "<div class='link-card'><a href='$url'>$title</a><p>$desc</p></div>";
             }

@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <h1>Money Advise Hub - Admin Panel</h1>
-        
+
         <h2>Articles</h2>
         <table id="articlesTable">
             <thead>

@@ -12,19 +12,19 @@
 </head>
 <body>
     <h1>🌐 Domain Status Check</h1>
-    
+
     <div id="status" class="status pending">
         <h2>⏳ Checking DNS Propagation...</h2>
         <p>Testing both domains...</p>
     </div>
-    
+
     <div>
         <h3>Test URLs:</h3>
         <p><a href="https://moneyadvisehub.com" target="_blank">https://moneyadvisehub.com</a></p>
         <p><a href="https://www.moneyadvisehub.com" target="_blank">https://www.moneyadvisehub.com</a></p>
         <p><a href="https://moneyadvisehub.com" target="_blank">Vercel URL (Working)</a></p>
     </div>
-    
+
     <script>
         // Test domain connectivity
         function testDomain() {
@@ -32,10 +32,10 @@
                 'https://moneyadvisehub.com',
                 'https://www.moneyadvisehub.com'
             ];
-            
+
             let workingCount = 0;
             let totalTests = domains.length;
-            
+
             domains.forEach(domain => {
                 fetch(domain, { mode: 'no-cors' })
                     .then(() => {
@@ -46,10 +46,10 @@
                         updateStatus();
                     });
             });
-            
+
             function updateStatus() {
                 const statusDiv = document.getElementById('status');
-                
+
                 if (workingCount === totalTests) {
                     statusDiv.className = 'status working';
                     statusDiv.innerHTML = '<h2>✅ Domain Working!</h2><p>Both moneyadvisehub.com and www.moneyadvisehub.com are active</p>';
@@ -62,7 +62,7 @@
                 }
             }
         }
-        
+
         // Test immediately and every 30 seconds
         testDomain();
         setInterval(testDomain, 30000);

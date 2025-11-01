@@ -1,20 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 
-function replaceInFile(filePath) {
+function cleanFile(filePath) {
   if (!fs.existsSync(filePath)) return;
 
   let content = fs.readFileSync(filePath, 'utf8');
   let changed = false;
 
-  // Replace all variations
-  const replacements = [
-    [/Advise/g, 'Advise'],
-    [/advise/g, 'advise'],
-    [/ADVISE/g, 'ADVISE']
+  // Fix common issues
+  const fixes = [
+    [/console\.log\([^)]*\);?/g, ''],
+    [/\n\s*\n\s*\n/g, '\n\n'],
+    [/[ \t]+$/gm, ''],
+    [/href="https:\/\/moneyadvisehub\.com\/https:\/\/moneyadvisehub\.com\//g, 'href="https://moneyadvisehub.com/'],
+    [/src="assets\/assets\//g, 'src="assets/'],
+    [/,\s*}/g, '}'],
+    [/,\s*]/g, ']']
   ];
 
-  replacements.forEach(([pattern, replacement]) => {
+  fixes.forEach(([pattern, replacement]) => {
     if (pattern.test(content)) {
       content = content.replace(pattern, replacement);
       changed = true;
@@ -35,8 +39,8 @@ function walkDir(dir) {
 
     if (stat.isDirectory() && !file.startsWith('.') && file !== 'node_modules') {
       walkDir(filePath);
-    } else if (file.endsWith('.html') || file.endsWith('.js') || file.endsWith('.md') || file.endsWith('.json') || file.endsWith('.php') || file.endsWith('.bat')) {
-      replaceInFile(filePath);
+    } else if (file.endsWith('.html') || file.endsWith('.php') || file.endsWith('.js') || file.endsWith('.json')) {
+      cleanFile(filePath);
     }
   });
 }

@@ -32,7 +32,7 @@ async function generateArticleImage(topic, category) {
   } catch (error) {
     console.error('Image generation failed:', error);
   }
-  
+
   // Fallback to placeholder
   return `https://via.placeholder.com/800x450/2c5aa0/ffffff?text=${encodeURIComponent(topic)}`;
 }
@@ -69,8 +69,7 @@ Format the response as clean HTML content ready for publication.`;
           temperature: 0.7,
           topK: 40,
           topP: 0.95,
-          maxOutputTokens: 2048,
-        }
+          maxOutputTokens: 2048}
       })
     });
 
@@ -79,7 +78,7 @@ Format the response as clean HTML content ready for publication.`;
     }
 
     const data = await response.json();
-    
+
     if (data.candidates && data.candidates[0] && data.candidates[0].content) {
       return data.candidates[0].content.parts[0].text;
     } else {
@@ -88,7 +87,7 @@ Format the response as clean HTML content ready for publication.`;
 
   } catch (error) {
     console.error('Google AI generation failed:', error);
-    
+
     // Fallback content template with image
     const fallbackImage = `https://via.placeholder.com/800x450/2c5aa0/ffffff?text=${encodeURIComponent(topic)}`;
     return `
@@ -97,7 +96,7 @@ Format the response as clean HTML content ready for publication.`;
       </div>
       <h2>Understanding ${topic}</h2>
       <p>This comprehensive guide covers everything US residents need to know about ${topic.toLowerCase()}.</p>
-      
+
       <h3>Key Benefits</h3>
       <ul>
         <li>Competitive rates and terms available in the US market</li>
@@ -105,7 +104,7 @@ Format the response as clean HTML content ready for publication.`;
         <li>Quick approval processes with major US providers</li>
         <li>Excellent customer service and support</li>
       </ul>
-      
+
       <h3>How to Get Started</h3>
       <p>Follow these steps to find the best ${topic.toLowerCase()} options for your needs:</p>
       <ol>
@@ -114,7 +113,7 @@ Format the response as clean HTML content ready for publication.`;
         <li>Read reviews and customer testimonials</li>
         <li>Apply with your preferred provider</li>
       </ol>
-      
+
       <div class="cta-box">
         <h3>Ready to Take Action?</h3>
         <p>Compare your options and find the best ${topic.toLowerCase()} solution for your financial needs today.</p>
@@ -142,16 +141,13 @@ async function generateDailyContentWithAI() {
   const dayIndex = today.getDate() % topics.length;
   const selectedTopic = topics[dayIndex];
 
-  console.log(`🤖 Generating AI content: ${selectedTopic.topic}`);
-  console.log(`🎨 Generating article image...`);
-
   try {
     // Generate image first
     const imageUrl = await generateArticleImage(selectedTopic.topic, selectedTopic.category);
-    
+
     // Generate content
     const aiContent = await generateFinancialArticle(selectedTopic.topic, selectedTopic.category);
-    
+
     // Add image to content
     const contentWithImage = `
       <div class="article-hero-image">
@@ -159,7 +155,7 @@ async function generateDailyContentWithAI() {
       </div>
       ${aiContent}
     `;
-    
+
     // Upload to website
     const uploadResponse = await fetch('https://moneyadvisehub.com/api/upload-content.php', {
       method: 'POST',
@@ -177,9 +173,9 @@ async function generateDailyContentWithAI() {
     });
 
     const result = await uploadResponse.json();
-    
+
     if (result.success) {
-      console.log(`✅ AI article published: ${result.url}`);
+
       return result;
     } else {
       console.error(`❌ Upload failed: ${result.error}`);
@@ -194,35 +190,27 @@ async function generateDailyContentWithAI() {
 
 // Test function for Google AI integration
 async function testGoogleAI() {
-  console.log('🧪 Testing Google AI Studio integration...');
-  
+
   const testTopic = 'Best Credit Cards for 2025';
   const testCategory = 'Finance';
-  
+
   const content = await generateFinancialArticle(testTopic, testCategory);
-  console.log('Generated content preview:', content.substring(0, 200) + '...');
-  
+   + '...');
+
   return content;
 }
 
 // Export functions
 if (typeof module !== 'undefined') {
-  module.exports = { 
-    generateFinancialArticle, 
+  module.exports = {
+    generateFinancialArticle,
     generateArticleImage,
-    generateDailyContentWithAI, 
-    testGoogleAI 
+    generateDailyContentWithAI,
+    testGoogleAI
   };
 }
 
 // Usage instructions
-console.log(`
-🤖 Google AI Studio Integration Setup:
-
-1. Get your API key: https://aistudio.google.com/app/apikey
-2. Replace YOUR_GOOGLE_AI_STUDIO_API_KEY with your actual key
-3. Test the integration: node google-ai-integration.js
-4. Run daily generation: generateDailyContentWithAI()
 
 Features:
 ✅ Gemini Pro model integration

@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Track affiliate link clicks
     const affiliateLinks = document.querySelectorAll('a[rel="sponsored"]');
-    
+
     affiliateLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             // Track click event
@@ -13,11 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     'value': 1
                 });
             }
-            
-            console.log('Affiliate link clicked:', this.href);
+
         });
     });
-    
+
     // Add affiliate disclosure to sponsored links
     affiliateLinks.forEach(link => {
         if (!link.querySelector('.affiliate-badge')) {

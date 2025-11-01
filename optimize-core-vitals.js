@@ -55,4 +55,3 @@ const optimizedCSS = fs.readFileSync('assets/css/style.css', 'utf8')
 
 fs.writeFileSync('assets/css/style.min.css', optimizedCSS);
 
-console.log('✅ Core Web Vitals optimized!');

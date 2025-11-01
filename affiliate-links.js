@@ -6,7 +6,7 @@ function trackAffiliateClick(service, link) {
       'link': link
     });
   }
-  console.log('Affiliate click:', service, link);
+
 }
 
 // Add affiliate disclosure to all pages

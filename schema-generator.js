@@ -12,7 +12,7 @@ const PUBLISHER = {
 
 function generateArticleSchema(title, description, author, datePublished, url) {
   if (!title || !description || !author || !datePublished || !url) return null;
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -28,9 +28,9 @@ function generateArticleSchema(title, description, author, datePublished, url) {
 
 function generateReviewSchema(itemName, rating, reviewBody, author) {
   if (!itemName || !rating || !reviewBody || !author) return null;
-  
+
   const numRating = Math.max(1, Math.min(5, parseFloat(rating) || 1));
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "Review",

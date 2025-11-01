@@ -3,12 +3,12 @@ const path = require('path');
 
 function fixFile(filePath) {
   if (!fs.existsSync(filePath)) return;
-  
+
   let content = fs.readFileSync(filePath, 'utf8');
   if (content.includes('Advise')) {
     content = content.replace(/Advise/g, 'Advise');
     fs.writeFileSync(filePath, content);
-    console.log(`✅ Fixed: ${filePath}`);
+
   }
 }
 
@@ -21,4 +21,3 @@ const files = [
 ];
 
 files.forEach(file => fixFile(file));
-console.log('🎉 Advise → Advise complete!');

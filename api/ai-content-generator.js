@@ -4,7 +4,7 @@ const API_KEY = 'mah-api-key-2025';
 
 // Google AI Studio integration
 async function generateFinancialContent(topic, category) {
-  const prompt = `Write a comprehensive financial article about "${topic}" for US residents. 
+  const prompt = `Write a comprehensive financial article about "${topic}" for US residents.
   Include:
   - SEO-optimized content
   - Practical advice
@@ -76,12 +76,11 @@ const dailyTopics = [
 async function generateDailyContent() {
   const today = new Date().getDay();
   const topic = dailyTopics[today % dailyTopics.length];
-  
-  console.log(`Generating content for: ${topic.topic}`);
+
   const result = await generateFinancialContent(topic.topic, topic.category);
-  
+
   if (result.success) {
-    console.log(`Content published: ${result.url}`);
+
   } else {
     console.error('Failed to publish:', result.error);
   }

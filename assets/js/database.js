@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         newsletterForm.addEventListener('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);
-            
+
             fetch('api/newsletter.php', {
                 method: 'POST',
                 body: formData
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-    
+
     // Track page views
     fetch('api/analytics.php', {
         method: 'POST',

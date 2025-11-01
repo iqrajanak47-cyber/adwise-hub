@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Financial Calculators</h1>
-    
+
     <div class="calc">
         <h3>EMI Calculator</h3>
         <input type="number" id="loan" placeholder="Loan Amount ($)" value="50000">
@@ -37,26 +37,26 @@
             const P = parseFloat(document.getElementById('loan').value);
             const r = parseFloat(document.getElementById('rate').value) / 100 / 12;
             const n = parseFloat(document.getElementById('years').value) * 12;
-            
+
             if (P && r && n) {
                 const emi = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
                 const total = emi * n;
                 const interest = total - P;
-                document.getElementById('emi-result').innerHTML = 
+                document.getElementById('emi-result').innerHTML =
                     `Monthly EMI: $${emi.toFixed(2)}<br>Total Interest: $${interest.toFixed(0)}<br>Total Amount: $${total.toFixed(0)}`;
             }
         }
-        
+
         function calcMortgage() {
             const price = parseFloat(document.getElementById('price').value);
             const down = parseFloat(document.getElementById('down').value);
             const rate = parseFloat(document.getElementById('mrate').value) / 100 / 12;
             const term = parseFloat(document.getElementById('myears').value) * 12;
             const principal = price - down;
-            
+
             if (principal && rate && term) {
                 const payment = (principal * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
-                document.getElementById('mort-result').innerHTML = 
+                document.getElementById('mort-result').innerHTML =
                     `Monthly Payment: $${payment.toFixed(2)}<br>Loan Amount: $${principal.toLocaleString()}<br>Down Payment: ${((down/price)*100).toFixed(1)}%`;
             }
         }

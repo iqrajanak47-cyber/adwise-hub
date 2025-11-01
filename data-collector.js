@@ -5,15 +5,14 @@ const fs = require('fs');
 const targetUrl = 'https://www.moneyadvicehub.org.uk/';
 
 function collectData() {
-    console.log('🔍 Collecting data from Money Advice Hub UK...');
-    
+
     https.get(targetUrl, (res) => {
         let data = '';
-        
+
         res.on('data', (chunk) => {
             data += chunk;
         });
-        
+
         res.on('end', () => {
             // Extract key information
             const pageData = {
@@ -24,15 +23,14 @@ function collectData() {
                 structure: extractStructure(data),
                 timestamp: new Date().toISOString()
             };
-            
+
             // Save collected data
             fs.writeFileSync('collected-data.json', JSON.stringify(pageData, null, 2));
-            console.log('✅ Data collected and saved to collected-data.json');
-            
+
             // Generate insights
             generateInsights(pageData);
         });
-        
+
     }).on('error', (err) => {
         console.error('❌ Error collecting data:', err.message);
     });
@@ -63,11 +61,11 @@ function extractCategories(html) {
 function extractArticles(html) {
     const articles = [];
     const articleMatches = html.match(/<article[^>]*>[\s\S]*?<\/article>/gi) || [];
-    
+
     articleMatches.forEach(article => {
         const titleMatch = article.match(/<h[1-6][^>]*>([^<]+)<\/h[1-6]>/i);
         const linkMatch = article.match(/<a[^>]*href="([^"]*)"[^>]*>/i);
-        
+
         if (titleMatch) {
             articles.push({
                 title: titleMatch[1].trim(),
@@ -75,7 +73,7 @@ function extractArticles(html) {
             });
         }
     });
-    
+
     return articles;
 }
 
@@ -107,16 +105,11 @@ function generateInsights(data) {
         ],
         collectedAt: data.timestamp
     };
-    
+
     fs.writeFileSync('site-insights.json', JSON.stringify(insights, null, 2));
-    console.log('📊 Site insights generated: site-insights.json');
-    
+
     // Display summary
-    console.log('\n📋 COLLECTION SUMMARY:');
-    console.log(`Title: ${insights.siteAnalysis.title}`);
-    console.log(`Navigation Items: ${insights.siteAnalysis.navigationItems}`);
-    console.log(`Articles Found: ${insights.siteAnalysis.articleCount}`);
-    console.log(`Responsive: ${insights.siteAnalysis.isResponsive ? 'Yes' : 'No'}`);
+
 }
 
 // Run collection

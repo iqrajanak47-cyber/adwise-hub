@@ -7,8 +7,7 @@
     <h1>Fixing all links to work with localhost/advise-hub/</h1>
     <script>
         // This script will be used to fix all absolute paths
-        console.log('Starting link fix process...');
-        
+
         // Function to convert absolute paths to relative paths for XAMPP
         function fixLinks() {
             const links = document.querySelectorAll('a[href^="/"]');
@@ -19,7 +18,7 @@
                     link.setAttribute('href', href.substring(1));
                 }
             });
-            
+
             const assets = document.querySelectorAll('[src^="/"], [href^="/"]');
             assets.forEach(asset => {
                 const attr = asset.hasAttribute('src') ? 'src' : 'href';
@@ -29,10 +28,10 @@
                 }
             });
         }
-        
+
         // Run the fix
         fixLinks();
-        console.log('Links fixed for localhost environment');
+
     </script>
 <script src="assets/js/mobile.js"></script><script src="assets/js/animations.js"></script><script src="../affiliate-links.js"></script></body>
 </html>

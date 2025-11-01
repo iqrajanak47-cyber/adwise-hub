@@ -13,20 +13,20 @@ const fixes = {
 
 function fixFile(filePath) {
   if (!fs.existsSync(filePath)) return;
-  
+
   let content = fs.readFileSync(filePath, 'utf8');
   let changed = false;
-  
+
   Object.entries(fixes).forEach(([old, newVal]) => {
     if (content.includes(old)) {
       content = content.replace(new RegExp(old.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), newVal);
       changed = true;
     }
   });
-  
+
   if (changed) {
     fs.writeFileSync(filePath, content);
-    console.log(`✅ Fixed: ${filePath}`);
+
   }
 }
 
@@ -40,4 +40,3 @@ const files = [
 ];
 
 files.forEach(file => fixFile(file));
-console.log('🎉 All errors fixed!');
